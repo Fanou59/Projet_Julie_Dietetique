@@ -35,7 +35,8 @@
         </p>
         <p>
             <label for="telephone">Téléphone : </label>
-            <input type="tel" name="telephone" id="telephone" required>
+            <input type="tel" name="telephone" id="telephone" pattern="[0-7]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}"
+                placeholder="00.00.00.00.00" required>
             <label for="mail">Votre mail : </label>
             <input type="email" name="mail" id="mail" required>
         </p>
@@ -72,12 +73,12 @@
         </p>
         <p>
             <label for="intolerences">Renseigner ici vos intolérences alimentaires : </label>
-            <textarea name="intolerences" id="intolerences" cols="30" rows="10"></textarea>
+            <textarea name="intolerences" id="intolerences" cols="30" rows="10" spellcheck="true"></textarea>
 
         </p>
         <p>
             <label for="allergies">Renseigner ici vos allergies si vous en avez : </label>
-            <textarea name="allergies" id="allergies" cols="30" rows="10"></textarea>
+            <textarea name="allergies" id="allergies" cols="30" rows="10" spellcheck="true"></textarea>
 
         </p>
         <p>
