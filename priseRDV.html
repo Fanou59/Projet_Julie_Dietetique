@@ -35,7 +35,8 @@
         </p>
         <p>
             <label for="telephone">Téléphone : </label>
-            <input type="tel" name="telephone" id="telephone" required>
+            <input type="tel" name="telephone" id="telephone" pattern="[0-7]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}"
+                placeholder="00.00.00.00.00" required>
             <label for="mail">Votre mail : </label>
             <input type="email" name="mail" id="mail" required>
         </p>
@@ -72,46 +73,67 @@
         </p>
         <p>
             <label for="intolerences">Renseigner ici vos intolérences alimentaires : </label>
-            <textarea name="intolerences" id="intolerences" cols="30" rows="10"></textarea>
+            <textarea name="intolerences" id="intolerences" cols="30" rows="10" spellcheck="true"></textarea>
 
         </p>
         <p>
             <label for="allergies">Renseigner ici vos allergies si vous en avez : </label>
-            <textarea name="allergies" id="allergies" cols="30" rows="10"></textarea>
+            <textarea name="allergies" id="allergies" cols="30" rows="10" spellcheck="true"></textarea>
 
         </p>
         <p>
-            Quel sport pratiquez-vous ?
-            <input type="checkbox" name="fitness" id="fitness">
+            Quel(s) sport(s) pratiquez-vous ? <br>
             <label for="fitness">Fitness</label>
-            <input type="checkbox" name="running" id="running">
+            <input type="checkbox" name="fitness" id="fitness">
+
             <label for="running">Running</label>
-            <input type="checkbox" name="cyclisme" id="cyclisme">
+            <input type="checkbox" name="running" id="running">
+
+            <label for="marche">Marche</label>
+            <input type="checkbox" name="marche" id="marche">
+
             <label for="cyclisme">Cyclisme</label>
-            <input type="checkbox" name="artmartiaux" id="artmartiaux">
+            <input type="checkbox" name="cyclisme" id="cyclisme">
+
             <label for="artmartiaux">Art Martiaux</label>
-            <input type="checkbox" name="yoga" id="yoga">
+            <input type="checkbox" name="artmartiaux" id="artmartiaux">
+
             <label for="yoga">Yoga</label>
-            <input type="checkbox" name="pilates" id="pilates">
+            <input type="checkbox" name="yoga" id="yoga">
+
             <label for="pilates">Pilates</label>
-            <input type="checkbox" name="artmartiaux" id="artmartiaux">
+            <input type="checkbox" name="pilates" id="pilates">
+
             <label for="artmartiaux">Art Martiaux</label>
-            <input type="checkbox" name="autres" id="autres">
-            <label for="autres">Autres</label>
+            <input type="checkbox" name="artmartiaux" id="artmartiaux"><br>
+
+            <label for="autres">Autres : </label>
+            <input type="text" name="autres" id="autres"><br>
+
+            <label for="nosport">Pas de sport</label>
+            <input type="checkbox" name="nosport" id="nosport">
         </p>
         <p>
             <input type="checkbox" name="confidentialite" id="confidentialite" required>
             <label for="confidentialite"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la charte de
                         confidentialite</a></i></label>
         </p>
-        <input type="submit" value="Envoyer les informations">
+        <p>
+            <input type="checkbox" name="confidentialite" id="confidentialite" required>
+            <label for="confidentialite"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la charte de
+                        confidentialite</a></i></label>
+        </p>
+        <input type="submit" value="Envoyer le questionnaire">
     </form>
     <section>
         <h2>Choisissez une date de rdv dans le calendrier ci-dessous</h2>
         <p>
             Ici on mettra peut-être un calendrier de rdv ou alors après l'envoi du formulaire arriver sur une page de
-            prise de rdv
-            On pourra tester simplybook.me pour la prise de rdv (free jusqu'à 50 consultations par mois)
+            prise de RDV.
+            <i>On pourra tester <a href="https://simplybook.me/fr/">simplybook.me</a> pour la prise de rdv (free jusqu'à
+                50
+                consultations
+                par mois)</i>
         </p>
     </section>
     <footer> <!--Footer de la page accueil avec 3 parties (contact|menu|copyright)-->
