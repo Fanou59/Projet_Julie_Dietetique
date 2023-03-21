@@ -1,7 +1,7 @@
 /*
 *  html5resetcss
 */
-/* html,
+html,
 body,
 div,
 span,
@@ -161,4 +161,53 @@ hr {
 input,
 select {
     vertical-align: middle
-} */
+}
+
+nav a {
+    color: #5B919F;
+}
+
+header {
+    background-image: url(/images/BG_header.jpg);
+    background-repeat: no-repeat;
+    height: 960px;
+}
+
+header h1 {
+    color: white;
+}
+
+footer {
+    background-color: #5B919F;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+
+
+h1,
+h2 {
+    font-family: 'Hind', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+}
