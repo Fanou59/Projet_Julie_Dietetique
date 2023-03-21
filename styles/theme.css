@@ -76,7 +76,7 @@ video {
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent
+    background: transparent;
 }
 
 body {
@@ -211,9 +211,10 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
-a:hover {
+.nav__menu a:hover {
     text-decoration: underline;
 }
+
 
 .active {
     font-weight: 600;
@@ -269,7 +270,8 @@ nav a {
 }
 
 .header__text a,
-.nav__button a {
+.nav__button a,
+#envoyer {
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
     background-color: var(--button-color);
@@ -364,7 +366,7 @@ main {
 
 /* ********** SECTION SLIDER BLOG ****************** */
 
-/************* FORMULAIRES ************************** */
+/************* FORMULAIRES - GLOBAL ************************** */
 input[type=text],
 textarea,
 input[type=tel],
@@ -375,8 +377,45 @@ select {
     background-color: var(--form-input);
     border: none;
     font-family: 'Montserrat', sans-serif;
-
+    height: 32px;
+    margin-bottom: 5.56rem;
+    width: 308px;
 }
+
+textarea {
+    height: 208px;
+    width: 100%;
+}
+
+#objet {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+/************* FORMULAIRES - CONTACTEZ-MOI ******************* */
+form {
+    width: 60%;
+    margin-top: 5.875rem;
+}
+
+
+.form__identite {
+    display: flex;
+    justify-content: space-between;
+}
+
+#envoyer {
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+}
+
+
 
 
 
@@ -388,6 +427,7 @@ footer {
     align-items: center;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    height: 264px;
 }
 
 footer a {
