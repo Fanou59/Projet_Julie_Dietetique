@@ -167,6 +167,7 @@ select {
 /************ ROOT ****************** */
 :root {
     --primary-color: #5B919F;
+    --primary-color-10: rgba(91, 145, 159, 0.1);
     --secondary-color: #FFF;
     --button-color: #FFF689;
 
@@ -233,6 +234,14 @@ nav a {
 }
 
 /************** HEADER__ACCEUIL *************************** */
+.header__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color-10);
+    height: 420px;
+}
 
 .header__accueil {
     background-image: url(BG_header.jpeg);
