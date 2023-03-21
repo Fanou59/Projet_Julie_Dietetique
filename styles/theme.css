@@ -232,9 +232,9 @@ nav a {
     padding-right: 1.125rem;
 }
 
-/************** HEADER *************************** */
+/************** HEADER__ACCEUIL *************************** */
 
-header {
+.header__accueil {
     background-image: url(BG_header.jpeg);
     background-repeat: no-repeat;
     background-position: bottom;
