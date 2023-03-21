@@ -219,7 +219,7 @@ nav a {
 /************** HEADER *************************** */
 
 header {
-    background-image: url(/images/BG_header.jpeg);
+    background-image: url(BG_header.jpeg);
     background-repeat: no-repeat;
     background-position: bottom;
     height: 960px;
@@ -246,6 +246,23 @@ header {
 }
 
 /* ********** SECTION CATALOGUE ****************** */
+
+
+
+/* .catalogue__cardServices {
+    background: #eef;
+    border-radius: 10px;
+
+    
+}
+
+.catalogue__cardServices p {
+    display: inline;
+    background-color: rgba(172, 146, 166, 0.4);
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px;
+} */
 
 /* ********** SECTION TESTIMONIAL ****************** */
 .testimonial img {
