@@ -164,12 +164,17 @@ select {
     vertical-align: middle
 }
 
+ul {
+    list-style-type: none;
+}
+
 /************ ROOT ****************** */
 :root {
     --primary-color: #5B919F;
     --primary-color-10: rgba(91, 145, 159, 0.1);
     --secondary-color: #FFF;
     --button-color: #FFF689;
+    --form-input: #D0DBDD;
 
 
 }
@@ -191,11 +196,13 @@ h3 {
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
 }
 
 h3 {
     font-size: 2rem;
-    padding-top: 1rem;
 
 }
 
@@ -233,7 +240,7 @@ nav a {
     padding-right: 1.125rem;
 }
 
-/************** HEADER__ACCEUIL *************************** */
+/************** HEADER__ACCUEIL *************************** */
 .header__page {
     display: flex;
     flex-direction: column;
@@ -270,32 +277,107 @@ nav a {
     padding: 12px 24px;
 }
 
-/* ********** SECTION CATALOGUE ****************** */
-
-
-
-/* .catalogue__cardServices {
-    background: #eef;
-    border-radius: 10px;
-
-    
+/******************* MAIN ***************************/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.catalogue__cardServices p {
-    display: inline;
-    background-color: rgba(172, 146, 166, 0.4);
-    border-radius: 50%;
+/* ********** SECTION CATALOGUE ****************** */
+
+/* .catalogue {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3.5rem;
+    margin-bottom: 8.4rem;
+
+}
+
+.catalogue__cardServices {
     text-align: center;
-    padding: 30px;
+    background: #eef;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.catalogue__price {
+    background-color: rgba(172, 146, 166, 0.4);
+    padding: 20px;
+    border-radius: 50%;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+
+
 } */
 
+
 /* ********** SECTION TESTIMONIAL ****************** */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    /* margin: 25vh auto; */
+
+}
+
 .testimonial img {
     width: 2.5rem;
     border-radius: 50%;
 }
 
+.testimonial blockquote {
+    margin: 10px 10px;
+    background: #efefef;
+    padding: 20px 60px;
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+    content: "\201D";
+    position: absolute;
+    font-size: 80px;
+    color: #757f9a;
+    font-style: normal;
+}
+
+.testimonial blockquote:before {
+    top: 0;
+    left: 10px;
+}
+
+.testimonial blockquote:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+}
+
 /* ********** SECTION SLIDER BLOG ****************** */
+
+/************* FORMULAIRES ************************** */
+input[type=text],
+textarea,
+input[type=tel],
+input[type=email],
+input[type=number],
+select {
+    border-radius: 20px;
+    background-color: var(--form-input);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 
 
 /************** FOOTER *************************** */
