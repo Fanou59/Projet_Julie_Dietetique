@@ -164,8 +164,16 @@ select {
     vertical-align: middle
 }
 
-/************ GLOBAL *************** */
+/************ ROOT ****************** */
+:root {
+    --primary-color: #5B919F;
+    --secondary-color: #FFF;
+    --button-color: #FFF689;
 
+
+}
+
+/************ GLOBAL *************** */
 h1,
 h2 {
     font-family: 'Hind', sans-serif;
@@ -199,7 +207,6 @@ a:hover {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
     line-height: 1.5rem;
 }
 
@@ -212,7 +219,7 @@ nav {
 }
 
 nav a {
-    color: #5B919F;
+    color: var(--primary-color);
     padding-right: 1.125rem;
 }
 
@@ -228,7 +235,7 @@ header {
 .header__text {
     padding-top: 280px;
     padding-left: 180px;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .header__text h1 {
@@ -239,8 +246,8 @@ header {
 .header__text a,
 .nav__button a {
     font-family: 'Montserrat', sans-serif;
-    color: #5B919F;
-    background-color: #FFF689;
+    color: var(--primary-color);
+    background-color: var(--button-color);
     border-radius: 6px;
     padding: 12px 24px;
 }
@@ -279,12 +286,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5B919F;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 footer a {
-    color: white;
+    color: var(--secondary-color);
     padding-right: 1rem;
 }
 
