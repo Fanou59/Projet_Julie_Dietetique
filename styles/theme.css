@@ -185,10 +185,17 @@ h1 {
     line-height: 3.8rem;
 }
 
-h2 {
+h2,
+h3 {
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+
 }
 
 p,
@@ -205,7 +212,9 @@ a:hover {
 }
 
 
-p {
+p,
+ul,
+li {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5rem;
 }
