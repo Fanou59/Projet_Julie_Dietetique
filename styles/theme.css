@@ -192,6 +192,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.active {
+    font-weight: 600;
+}
+
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
