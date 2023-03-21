@@ -118,7 +118,8 @@ a {
     padding: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent
+    background: transparent;
+    text-decoration: none;
 }
 
 ins {
@@ -163,30 +164,7 @@ select {
     vertical-align: middle
 }
 
-nav a {
-    color: #5B919F;
-}
-
-header {
-    background-image: url(/images/BG_header.jpg);
-    background-repeat: no-repeat;
-    height: 960px;
-}
-
-header h1 {
-    color: white;
-}
-
-footer {
-    background-color: #5B919F;
-    color: white;
-}
-
-footer a {
-    color: white;
-}
-
-
+/************ GLOBAL *************** */
 
 h1,
 h2 {
@@ -205,9 +183,91 @@ h2 {
     line-height: 2.5rem;
 }
 
+p,
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     line-height: 1.5rem;
+}
+
+/************ Barre de navigation *************** */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 120px;
+}
+
+nav a {
+    color: #5B919F;
+    padding-right: 1.125rem;
+}
+
+/************** HEADER *************************** */
+
+header {
+    background-image: url(/images/BG_header.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 960px;
+}
+
+.header__text {
+    padding-top: 280px;
+    padding-left: 180px;
+    color: white;
+}
+
+.header__text h1 {
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+
+.header__text a,
+.nav__button a {
+    font-family: 'Montserrat', sans-serif;
+    color: #5B919F;
+    background-color: #FFF689;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
+
+/* ********** SECTION CATALOGUE ****************** */
+
+/* ********** SECTION TESTIMONIAL ****************** */
+.testimonial img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+/* ********** SECTION SLIDER BLOG ****************** */
+
+
+/************** FOOTER *************************** */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5B919F;
+    color: white;
+}
+
+footer a {
+    color: white;
+    padding-right: 1rem;
+}
+
+.footer__contact,
+.footer__copyright {
+    margin: 22px 120px;
 
 }
