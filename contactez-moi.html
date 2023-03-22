@@ -52,13 +52,15 @@
                 <label for="message">Votre message : </label>
                 <textarea name="message" id="message" spellcheck="true" cols="30" rows="10"></textarea>
             </p>
-            <p>
-                <input type="checkbox" name="confidentialite" id="confidentialite" required>
-                <label for="confidentialite"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la charte de
-                            confidentialite</a></i></label>
-            </p>
-            <input id="envoyer" type="submit" value="Envoyer">
+            <div class="envoyer">
+                <p>
+                    <input type="checkbox" name="confidentialite" id="confidentialite" required>
+                    <label for="confidentialite"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la charte de
+                                confidentialite</a></i></label>
+                </p>
 
+                <input id="envoyer" type="submit" value="Envoyer">
+            </div>
         </form>
     </main>
     <footer> <!--Footer de la page accueil avec 3 parties (contact|menu|copyright)-->

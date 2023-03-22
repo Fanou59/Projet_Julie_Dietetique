@@ -447,9 +447,20 @@ form {
     border: none;
     font-size: 1rem;
     margin-bottom: 4rem;
-    margin-left: auto;
+    margin-top: 1.5rem;
+    width: 112px;
 }
 
+.envoyer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.envoyer label {
+    display: inline;
+
+}
 
 
 
