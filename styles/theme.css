@@ -174,6 +174,7 @@ ul {
     --primary-color-10: rgba(91, 145, 159, 0.1);
     --secondary-color: #FFF;
     --button-color: #FFF689;
+    --button-colorHover: #fff26a;
     --form-input: #D0DBDD;
 
 
@@ -294,6 +295,12 @@ nav a {
     background-color: var(--button-color);
     border-radius: 6px;
     padding: 12px 24px;
+}
+
+.header__text a:hover,
+.nav__button a:hover,
+#envoyer:hover {
+    background-color: var(--button-colorHover);
 }
 
 /******************* MAIN ***************************/
@@ -441,6 +448,7 @@ form {
 .form__identite {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #envoyer {
@@ -460,6 +468,12 @@ form {
 .envoyer label {
     display: inline;
 
+}
+
+/* ************** FORMULAIRE RDV ******************** */
+#genre {
+    display: flex;
+    column-gap: 16px;
 }
 
 /************** FOOTER *************************** */
