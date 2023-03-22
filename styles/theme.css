@@ -410,18 +410,18 @@ main {
 
 /************* FORMULAIRES - GLOBAL ************************** */
 input[type=text],
-textarea,
+.form-control,
 input[type=tel],
 input[type=email],
 input[type=number],
-select {
+.form-select {
     border-radius: 20px;
     background-color: var(--form-input);
     border: none;
     font-family: 'Montserrat', sans-serif;
-    height: 32px;
+    /* height: 32px; */
     margin-bottom: 5.56rem;
-    width: 308px;
+    /* width: 308px; */
 }
 
 textarea {
@@ -433,9 +433,13 @@ textarea {
     width: 100%;
 }
 
-label {
-    display: block;
+label,
+.form-label {
+    /* display: block; */
     margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 1rem; */
+
 }
 
 /************* FORMULAIRES - CONTACTEZ-MOI ******************* */
@@ -471,10 +475,10 @@ form {
 }
 
 /* ************** FORMULAIRE RDV ******************** */
-#genre {
+/* #genre {
     display: flex;
     column-gap: 16px;
-}
+} */
 
 /************** FOOTER *************************** */
 

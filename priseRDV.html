@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Montserrat:wght@400;500&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/theme.css">
     <title>Prendre un RDV</title>
 </head>
@@ -33,7 +35,86 @@
     </header>
     <h2>Merci de remplir le formulaire suivant :</h2>
     <form action="post">
-        <div class="form__identite">
+        <div class="row">
+            <div class="col">
+                <label for="name">Nom :</label>
+                <input id="name" name="name" type="text" class="form-control" aria-label="First name" required>
+            </div>
+            <div class="col">
+                <label for="prenom">Prénom :</label>
+                <input id="prenom" name="prenom" type="text" class="form-control" aria-label="Last name" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="tel">Téléphone :</label>
+                <input id="tel" name="tel" type="tel" class="form-control" placeholder="00.00.00.00.00"
+                    aria-label="Telephone" required>
+            </div>
+            <div class="col">
+                <label for="mail">Votre mail :</label>
+                <input id="mail" name="mail" type="email" class="form-control" aria-label="mail" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="age">Quel est votre âge :</label>
+                <input id="age" name="age" type="number" class="form-control" aria-label="age">
+
+            </div>
+            <div class="col">
+                <label for="genre">Genre :</label>
+                <select class="form-select" id="genre">
+                    <option selected>Choisissez...</option>
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                    <option value="nonG">Non genré</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="activite">Quel est votre niveau d'activité ?</label>
+                <select class="form-select" id="activite">
+                    <option selected>Choisissez...</option>
+                    <option value="sedentaire">Sédentaire</option>
+                    <option value="moyenA">Moyennement actif</option>
+                    <option value="actif">Actif</option>
+                    <option value="tresA">Très actif</option>
+
+                </select>
+            </div>
+            <div class="col">
+                <label for="modeAlimentaire">Quel est votre mode alimentaire ?</label>
+                <select class="form-select" id="modeAlimentaire">
+                    <option selected>Choisissez...</option>
+                    <option value="equilibre">Equilibré</option>
+                    <option value="flexitarien">Fléxitarien</option>
+                    <option value="vegetarien">Végétarien</option>
+                    <option value="vegetalien">Végétalien</option>
+
+                </select>
+            </div>
+
+        </div>
+        <div class="mb-3">
+            <label for="intolerence" class="form-label">Renseignez ici vos intolérences alimentaires :</label>
+            <textarea name="intolerence" class="form-control" id="intolerence" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="allergies" class="form-label">Renseigner ici vos allergies si vous en avez :</label>
+            <textarea name="allergies" class="form-control" id="allergies" rows="3"></textarea>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- <div class="form__identite">
             <p>
                 <label for="name">Nom : </label>
                 <input type="text" name="name" id="name" required>
@@ -42,8 +123,8 @@
                 <label for="prenom">Prenom : </label>
                 <input type="text" name="prenom" id="prenom" required>
             </p>
-        </div>
-        <div class="form__identite">
+        </div> -->
+        <!-- <div class="form__identite">
 
             <p>
                 <label for="telephone">Téléphone : </label>
@@ -54,8 +135,8 @@
                 <label for="mail">Votre mail : </label>
                 <input type="email" name="mail" id="mail" required>
             </p>
-        </div>
-        <div class="form__identite">
+        </div> -->
+        <!-- <div class="form__identite">
 
             <p>
                 <label for="age">Quelle est votre age ? </label>
@@ -70,9 +151,9 @@
                 <label for="ng">Non Genré</label>
                 <input type="radio" name="genre" id="ng">
             </p>
-        </div>
+        </div> -->
 
-        <p>
+        <!-- <p>
             <label for="activite">Quel est votre niveau d'activité ?</label>
             <select name="activite" id="activite">
                 <option value="sedentaire">Sédentaire</option>
@@ -90,17 +171,17 @@
                 <option value="vegetarien">Végétarien</option>
                 <option value="vegetalien">Végétalien</option>
             </select>
-        </p>
-        <p>
+        </p> -->
+        <!-- <p>
             <label for="intolerences">Renseigner ici vos intolérences alimentaires : </label>
             <textarea name="intolerences" id="intolerences" cols="30" rows="10" spellcheck="true"></textarea>
 
-        </p>
-        <p>
+        </p> -->
+        <!-- <p>
             <label for="allergies">Renseigner ici vos allergies si vous en avez : </label>
             <textarea name="allergies" id="allergies" cols="30" rows="10" spellcheck="true"></textarea>
 
-        </p>
+        </p> -->
         <p>
             Quel(s) sport(s) pratiquez-vous ? <br>
             <label for="fitness">Fitness</label>
