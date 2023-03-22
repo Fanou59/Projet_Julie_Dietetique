@@ -183,6 +183,12 @@ ul {
     box-sizing: border-box;
 }
 
+/* body {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 /************ GLOBAL *************** */
 h1,
 h2,
@@ -275,6 +281,7 @@ nav a {
 }
 
 .header__text h1 {
+    width: 40%;
     text-transform: uppercase;
     padding-bottom: 80px;
 }
