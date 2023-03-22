@@ -179,9 +179,14 @@ ul {
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /************ GLOBAL *************** */
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Hind', sans-serif;
 }
 
@@ -201,8 +206,13 @@ h3 {
 
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 
 }
 
@@ -284,37 +294,51 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
 }
 
 /* ********** SECTION CATALOGUE ****************** */
 
-/* .catalogue {
+.catalogue {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    justify-items: center;
     width: 100%;
     margin-top: 3.5rem;
     margin-bottom: 8.4rem;
+    flex-basis: 33.33%;
+    column-gap: 32px;
 
 }
 
 .catalogue__cardServices {
     text-align: center;
     background: #eef;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.18);
     border-radius: 10px;
-    margin-left: 1rem;
+    width: 40%;
 }
 
 .catalogue__price {
+    display: inline;
     background-color: rgba(172, 146, 166, 0.4);
-    padding: 20px;
+    padding: 1.5rem;
     border-radius: 50%;
-
-    font-weight: bold;
     text-align: center;
     font-size: 2rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
 
 
-} */
+
+
+}
+
+.catalogue__cardServices h3 {
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
 
 
 /* ********** SECTION TESTIMONIAL ****************** */
@@ -322,9 +346,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
-    /* margin: 25vh auto; */
-
+    margin-top: 8.5rem;
+    margin-bottom: 7.5rem;
 }
 
 .testimonial img {
@@ -333,14 +356,15 @@ main {
 }
 
 .testimonial blockquote {
-    margin: 10px 10px;
     background: #efefef;
-    padding: 20px 60px;
+    padding: 1.5rem 3.5rem;
     position: relative;
     border: none;
     border-radius: 8px;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 32px;
 
 }
 
@@ -362,6 +386,10 @@ main {
     content: "\201D";
     right: 10px;
     bottom: -0.5em;
+}
+
+.testimonial p {
+    margin-top: 1rem;
 }
 
 /* ********** SECTION SLIDER BLOG ****************** */
