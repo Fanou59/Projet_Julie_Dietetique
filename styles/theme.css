@@ -424,14 +424,14 @@ input[type=number],
     /* width: 308px; */
 }
 
-textarea {
+/* textarea {
     height: 208px;
     width: 100%;
-}
+} */
 
-#objet {
+/* #objet {
     width: 100%;
-}
+} */
 
 /* form {
     margin-left: auto;
@@ -446,6 +446,12 @@ label,
     /* font-size: 1rem; */
 
 }
+
+.sport,
+form p {
+    margin-bottom: 1.5rem;
+}
+
 
 /************* FORMULAIRES - CONTACTEZ-MOI ******************* */
 form {
