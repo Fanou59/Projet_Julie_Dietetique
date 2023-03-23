@@ -34,82 +34,98 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. ?</p>
     </header>
     <h2>Merci de remplir le formulaire suivant :</h2>
-    <form action="post">
-        <div class="row">
-            <div class="col">
-                <label for="name">Nom :</label>
-                <input id="name" name="name" type="text" class="form-control" aria-label="First name" required>
-            </div>
-            <div class="col">
-                <label for="prenom">Prénom :</label>
-                <input id="prenom" name="prenom" type="text" class="form-control" aria-label="Last name" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <label for="tel">Téléphone :</label>
-                <input id="tel" name="tel" type="tel" class="form-control" placeholder="00.00.00.00.00"
-                    aria-label="Telephone" required>
-            </div>
-            <div class="col">
-                <label for="mail">Votre mail :</label>
-                <input id="mail" name="mail" type="email" class="form-control" aria-label="mail" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <label for="age">Quel est votre âge :</label>
-                <input id="age" name="age" type="number" class="form-control" aria-label="age">
 
-            </div>
-            <div class="col">
-                <label for="genre">Genre :</label>
-                <select class="form-select" id="genre">
-                    <option selected>Choisissez...</option>
-                    <option value="homme">Homme</option>
-                    <option value="femme">Femme</option>
-                    <option value="nonG">Non genré</option>
-                </select>
+    <!-- FORMULAIRE DE PRISE DE RDV -->
+    <div class="container">
+        <form action="#" method="get">
+
+            <!-- NOM + PRENOM du formulaire -->
+            <div class="row">
+                <div class="col">
+                    <label for="name">Nom :</label>
+                    <input id="name" name="name" type="text" class="form-control" aria-label="First name" required>
+                </div>
+                <div class="col">
+                    <label for="prenom">Prénom :</label>
+                    <input id="prenom" name="prenom" type="text" class="form-control" aria-label="Last name" required>
+                </div>
             </div>
 
-        </div>
-        <div class="row">
-            <div class="col">
-                <label for="activite">Quel est votre niveau d'activité ?</label>
-                <select class="form-select" id="activite">
-                    <option selected>Choisissez...</option>
-                    <option value="sedentaire">Sédentaire</option>
-                    <option value="moyenA">Moyennement actif</option>
-                    <option value="actif">Actif</option>
-                    <option value="tresA">Très actif</option>
-
-                </select>
-            </div>
-            <div class="col">
-                <label for="modeAlimentaire">Quel est votre mode alimentaire ?</label>
-                <select class="form-select" id="modeAlimentaire">
-                    <option selected>Choisissez...</option>
-                    <option value="equilibre">Equilibré</option>
-                    <option value="flexitarien">Fléxitarien</option>
-                    <option value="vegetarien">Végétarien</option>
-                    <option value="vegetalien">Végétalien</option>
-
-                </select>
+            <!-- TEL + MAIL du formulaire -->
+            <div class="row">
+                <div class="col">
+                    <label for="tel">Téléphone :</label>
+                    <input id="tel" name="tel" type="tel" class="form-control" placeholder="00.00.00.00.00"
+                        aria-label="Telephone" required>
+                </div>
+                <div class="col">
+                    <label for="mail">Votre mail :</label>
+                    <input id="mail" name="mail" type="email" class="form-control" aria-label="mail" required>
+                </div>
             </div>
 
-        </div>
-        <div class="mb-3">
-            <label for="intolerence" class="form-label">Renseignez ici vos intolérences alimentaires :</label>
-            <textarea name="intolerence" class="form-control" id="intolerence" rows="3"></textarea>
-        </div>
-        <div class="mb-3">
-            <label for="allergies" class="form-label">Renseigner ici vos allergies si vous en avez :</label>
-            <textarea name="allergies" class="form-control" id="allergies" rows="3"></textarea>
-        </div>
-        <div class="sport">
-            <p>Quel(s) sport(s) pratiquez-vous ?</p>
+            <!-- AGE + GENRE du formulaire -->
+            <div class="row">
+                <div class="col">
+                    <label for="age">Quel est votre âge :</label>
+                    <input id="age" name="age" type="number" class="form-control" aria-label="age">
 
-            <div class="col">
+                </div>
+                <div class="col">
+                    <label for="genre">Genre :</label>
+                    <select class="form-select" id="genre">
+                        <option selected>Choisissez...</option>
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                        <option value="nonG">Non genré</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- Niveau d'activité + Mode alimentaire -->
+            <div class="row">
+                <div class="col">
+                    <label for="activite">Quel est votre niveau d'activité ?</label>
+                    <select class="form-select" id="activite">
+                        <option selected>Choisissez...</option>
+                        <option value="sedentaire">Sédentaire</option>
+                        <option value="moyenA">Moyennement actif</option>
+                        <option value="actif">Actif</option>
+                        <option value="tresA">Très actif</option>
+
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="modeAlimentaire">Quel est votre mode alimentaire ?</label>
+                    <select class="form-select" id="modeAlimentaire">
+                        <option selected>Choisissez...</option>
+                        <option value="equilibre">Equilibré</option>
+                        <option value="flexitarien">Fléxitarien</option>
+                        <option value="vegetarien">Végétarien</option>
+                        <option value="vegetalien">Végétalien</option>
+
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- INTOLERENCES -->
+            <div class="mb-3">
+                <label for="intolerence" class="form-label">Renseignez ici vos intolérences alimentaires :</label>
+                <textarea name="intolerence" class="form-control" id="intolerence" rows="3"></textarea>
+            </div>
+
+            <!-- ALLERGIES -->
+            <div class="mb-3">
+                <label for="allergies" class="form-label">Renseigner ici vos allergies si vous en avez :</label>
+                <textarea name="allergies" class="form-control" id="allergies" rows="3"></textarea>
+            </div>
+
+            <!-- SPORTS PRATIQUES -->
+            <div id="sport" class="col">
+                <p>Quel(s) sport(s) pratiquez-vous ?</p>
+
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" name="fitness" id="fitness">
                     <label class="form-check-label" for="fitness">Fitness</label>
@@ -129,8 +145,7 @@
                     <label class="form-check-label" for="cyclisme">Cyclisme</label>
                     <input class="form-check-input" type="checkbox" name="cyclisme" id="cyclisme">
                 </div>
-            </div>
-            <div class="col">
+
 
                 <div class="form-check form-check-inline">
                     <label class="form-check-label" for="artmartiaux">Art Martiaux</label>
@@ -151,29 +166,43 @@
                     <label class="form-check-label" for="artmartiaux">Art Martiaux</label>
                     <input class="form-check-input" type="checkbox" name="artmartiaux" id="artmartiaux">
                 </div>
+
+
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="autres">Autres</label>
+                    <input class="form-check-input" type="checkbox" name="autres" id="autres">
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="nosport">Pas de sport</label>
+                    <input class="form-check-input" type="checkbox" name="nosport" id="nosport">
+                </div>
             </div>
 
-            <div class="form-check form-check-inline">
-                <label class="form-check-label" for="autres">Autres : </label>
-                <input class="form-check-input" type="checkbox" name="autres" id="autres">
-            </div>
+            <!-- CONFIDENTIALITE + BOUTON SUBMIT-->
+            <div class="row">
+                <div class="d-inline-flex justify-content-end">
+                    <div class="form-check form-check-inline">
 
-            <div class="form-check form-check-inline">
-                <label class="form-check-label" for="nosport">Pas de sport</label>
-                <input class="form-check-input" type="checkbox" name="nosport" id="nosport">
-            </div>
-        </div>
-        <div class="col">
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" name="confidentialite" id="confidentialite" required>
-                <label class="form-check-label" for="confidentialite"><i>J'ai lu et j'accepte <a
-                            href="charteRGPD.html">la charte de
-                            confidentialité</a></i></label>
-            </div>
-        </div>
+                        <input class="form-check-input" type="checkbox" name="confidentialite" id="confidentialite"
+                            required>
+                        <label class="form-check-label" for="confidentialite"><i>J'ai lu et j'accepte <a
+                                    href="charteRGPD.html">la
+                                    charte de
+                                    confidentialité</a></i></label>
+                    </div>
+                </div>
 
-        <input type="submit" value="Envoyer le questionnaire">
-    </form>
+                <!-- BOUTON ENVOYER -->
+                <div class="d-inline-flex justify-content-end">
+                    <div class="form-check form-check-inline">
+                        <button type="submit" class="btn btn-primary">Envoyer le formulaire</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
     <section>
         <h2>Choisissez une date de rdv dans le calendrier ci-dessous</h2>
         <p>

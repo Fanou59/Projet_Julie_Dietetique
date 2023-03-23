@@ -215,6 +215,7 @@ h3 {
 
 h2 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 h3 {
@@ -289,7 +290,8 @@ nav a {
 
 .header__text a,
 .nav__button a,
-#envoyer {
+#envoyer,
+.btn-primary {
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
     background-color: var(--button-color);
@@ -297,10 +299,17 @@ nav a {
     padding: 12px 24px;
 }
 
+.btn-primary {
+    border: none;
+}
+
 .header__text a:hover,
 .nav__button a:hover,
-#envoyer:hover {
+#envoyer:hover,
+.btn-primary:hover {
     background-color: var(--button-colorHover);
+    color: var(--primary-color);
+
 }
 
 /******************* MAIN ***************************/
@@ -424,6 +433,11 @@ input[type=number],
     /* width: 308px; */
 }
 
+#sport {
+    margin-bottom: 5.56rem;
+
+}
+
 /* textarea {
     height: 208px;
     width: 100%;
@@ -447,7 +461,6 @@ label,
 
 }
 
-.sport,
 form p {
     margin-bottom: 1.5rem;
 }
@@ -455,8 +468,8 @@ form p {
 
 /************* FORMULAIRES - CONTACTEZ-MOI ******************* */
 form {
-    width: 60%;
-    margin-top: 5.875rem;
+    /* width: 60%; */
+    margin: 5.87rem 7.5rem 4rem;
 }
 
 
