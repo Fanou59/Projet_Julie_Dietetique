@@ -182,6 +182,8 @@ ul {
 
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 /* body {
@@ -208,8 +210,8 @@ h3 {
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin-top: 32px;
+    margin-bottom: 64px;
 
 }
 
@@ -417,7 +419,7 @@ main {
 
 /* ********** SECTION SLIDER BLOG ****************** */
 
-/************* FORMULAIRES - GLOBAL ************************** */
+/************* FORMULAIRES ************************** */
 main {
     display: flex;
     justify-content: center;
@@ -428,23 +430,41 @@ main {
     max-width: 1200px;
 }
 
+/* disposition du bloc user en 2 colonnes */
 .userinfo {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 0;
 }
 
 .userinfo__inputbox {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    margin-bottom: 64px;
 }
 
-.userinfo__inputbox label,
-.userinfo__genre {
-    font-family: 'Montserrat', sans-serif;
-    margin: 16px 0;
+/* Uniformisation des marges en bas à 64px pour l'ensemble du formulaire */
+.userinfo__inputbox input,
+.gender-category,
+.main-user-message input,
+.useractivity,
+.userfood,
+.userfood option,
+.usertextarea textarea,
+.usersports__category,
+.submit__btn {
+    margin-bottom: 4rem;
+}
+
+/* Uniformisation des marges hautes à 16px pour l'ensemble du formulaire */
+.userinfo__inputbox input,
+.gender-category,
+.main-user-message input,
+.useractivity select,
+.userfood select,
+.usertextarea textarea,
+.usersport__category,
+.submit__acceptrgpd {
+    margin-top: 1rem;
 }
 
 .userinfo__inputbox input {
@@ -452,36 +472,17 @@ main {
     width: 95%;
     border-radius: 20px;
     border: none;
-    font-family: 'Montserrat', sans-serif;
     background-color: var(--form-input);
-    padding: 0 8px;
 }
 
-.gender-title,
-.usersports,
-.main-user-message {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.gender-category,
-.usersport__category {
-    margin: 16px 0;
-
-}
 
 .gender-category label,
-.usersport__category label {
-    font-family: 'Montserrat', sans-serif;
-    padding: 0 16px 0 8px;
-}
-
-.useractivity label,
+.usersport__category label,
 .useractivity select,
-.userfood label,
 .userfood select,
-.usertextarea {
-    font-family: 'Montserrat', sans-serif;
-
+.main-user-message input,
+.userinfo__inputbox input {
+    padding: 0 0.5rem;
 }
 
 .useractivity select,
@@ -489,30 +490,26 @@ main {
 .main-user-message input {
     background-color: var(--form-input);
     height: 40px;
-    width: 98%;
     border-radius: 20px;
     border: none;
-    font-family: 'Montserrat', sans-serif;
-    padding: 0 10px;
-    margin-bottom: 64px;
-    margin-top: 16px;
 
 }
 
 .usertextarea textarea {
     background-color: var(--form-input);
     height: 80px;
-    width: 98%;
     border-radius: 20px;
     border: none;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 10px;
-    margin: 16px 0;
-    margin-bottom: 64px;
+    padding: 1rem;
+
 }
 
-.usersport__category {
-    margin-bottom: 64px;
+.usersport__category,
+.submit,
+.usertextarea textarea,
+.useractivity select,
+.userfood select,
+.main-user-message input {
     width: 98%;
 }
 
@@ -524,69 +521,25 @@ main {
     cursor: pointer;
 }
 
+/* boite RGPD + Submit */
 .submit {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 98%;
 }
-
 
 .submit__acceptrgpd {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 
-}
-
-.submit__btn {
-    margin-bottom: 64px;
 }
 
 .submit__btn input {
-    font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
     background-color: var(--button-color);
     border-radius: 6px;
     padding: 12px 24px;
     border: none;
 }
-
-/************* FORMULAIRES - CONTACTEZ-MOI ******************* */
-/* form {
-    width: 60%;
-    margin: 5.87rem 7.5rem 4rem;
-}
-
-
-.form__identite {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#envoyer {
-    border: none;
-    font-size: 1rem;
-    margin-bottom: 4rem;
-    margin-top: 1.5rem;
-    width: 112px;
-}
-
-.envoyer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.envoyer label {
-    display: inline;
-
-} */
-
-/* ************** FORMULAIRE RDV ******************** */
-/* #genre {
-    display: flex;
-    column-gap: 16px;
-} */
 
 /************** FOOTER *************************** */
 
