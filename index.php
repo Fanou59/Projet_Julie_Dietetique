@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 $page = 'accueil';
 include 'header.php';
 include 'nav.php';
@@ -50,7 +51,8 @@ include 'nav.php';
                     <li>liste</li>
                 </ul>
             </div>
-        </section> <!--section pour insérer le testimonial, expérience et/ou avis client-->
+        </section>
+        <!--section pour insérer le testimonial, expérience et/ou avis client-->
         <section class="testimonial">
             <blockquote>Très bon coach et diététicienne ! Bienveillante et avec pleins de bons conseils pour
                 retrouver une
