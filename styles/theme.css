@@ -538,20 +538,40 @@ main {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     height: 264px;
 }
 
-footer a {
-    color: var(--secondary-color);
-    padding-right: 1rem;
+.footer__contact {
+    display: flex;
+    flex-direction: column;
 }
 
-.footer__contact,
-.footer__copyright {
-    margin: 22px 120px;
+.footer__menu {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-content: space-around; */
 
+}
+
+.footer__followme {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__followme img {
+    width: 25px;
+}
+
+#ig {
+    margin-left: 1rem;
+}
+
+footer a {
+    color: var(--secondary-color);
+    margin-right: 1rem;
 }
