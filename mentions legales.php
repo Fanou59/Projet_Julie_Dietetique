@@ -1,31 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Montserrat:wght@400;500&display=swap"
-        rel="stylesheet">
-    <title>Mentions légales</title>
-</head>
-
-<body>
-    <nav>
-        <div class="header__menu">
-            <a href="index.html">Accueil</a>
-            <a href="blog.html">Blog</a>
-            <a href="aboutMe.html">Qui suis-je ?</a>
-            <a href="consultations.html">Consultations</a>
-            <a href="contactez-moi.html">Contactez-moi</a>
-
-        </div>
-        <div class="nav__button">
-            <a href="priseRDV.html">Prendre rdv</a>
-        </div>
-    </nav>
+<?php
+include 'header.php';
+include 'nav.php';
+?>
     <h1>Mentions légales</h1>
 
     <h2>Définitions</h2>
@@ -440,20 +416,4 @@
 
 
 
-    <footer> <!--Footer de la page accueil avec 3 parties (contact|menu|copyright)-->
-        <div class="footer__contact">Julie Guery +33 6 67 67 22 81</div>
-        <div class="footer__menu">
-            <a href="blog.html">Blog</a>
-            <a href="aboutMe.html">Qui suis-je ?</a>
-            <a href="contactez-moi.html">Contactez-moi</a>
-            <a href="mentions legales.html">Mentions légales</a>
-            <a href="politique de cookies.html">Politique de cookies</a>
-
-
-        </div>
-        <div class="footer__copyright">copyright</div>
-
-    </footer>
-</body>
-
-</html>
+        <?php include 'footer.php';?>

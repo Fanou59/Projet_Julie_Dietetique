@@ -510,7 +510,8 @@ main {
 .usersport-category input,
 .submit__acceptrgpd input,
 .submit__btn,
-.submit__btn input {
+.submit__btn input,
+.footer__followme img {
     cursor: pointer;
 }
 

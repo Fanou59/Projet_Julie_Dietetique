@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Montserrat:wght@400;500&display=swap"
-        rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="styles/theme.css">
-    <title>Prendre un RDV</title>
-</head>
-
-<body>
-    <nav>
-        <div class="header__menu">
-            <a href="index.html">Accueil</a>
-            <a href="blog.html">Blog</a>
-            <a href="aboutMe.html">Qui suis-je ?</a>
-            <a href="consultations.html">Consultations</a>
-            <a href="contactez-moi.html">Contactez-moi</a>
-
-        </div>
-        <div class="nav__button">
-            <a href="priseRDV.html">Prendre un rdv</a>
-        </div>
-    </nav>
+<?php include 'header.php';
+include 'nav.php';?>
     <header class="header__page">
         <h1>Prenons RDV</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. ?</p>
@@ -126,7 +97,7 @@
                 <div class="submit">
                     <div class="submit__acceptrgpd">
                         <input type="checkbox" name="rgpd" id="rgpd">
-                        <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la
+                        <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.php">la
                                     charte de
                                     confidentialité</a></i>
                     </div>
@@ -150,21 +121,4 @@
                 par mois)</i>
         </p>
     </section>
-    <footer> <!--Footer de la page accueil avec 3 parties (contact|menu|copyright)-->
-        <div class="footer__contact">Julie Guery +33 6 67 67 22 81</div>
-        <div class="footer__menu">
-            <a href="blog.html">Blog</a>
-            <a href="aboutMe.html">Qui suis-je ?</a>
-            <a href="contactez-moi.html">Contactez-moi</a>
-            <a href="mentions legales.html">Mentions légales</a>
-            <a href="politique de cookies.html">Politique de cookies</a>
-
-
-
-        </div>
-        <div class="footer__copyright">copyright</div>
-
-    </footer>
-</body>
-
-</html>
+    <?php include 'footer.php';?>

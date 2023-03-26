@@ -1,38 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Montserrat:wght@400;500&display=swap"
-        rel="stylesheet">
+<?php 
+$page = 'accueil';
+include 'header.php';
+include 'nav.php';
+?>
 
 
-    <link rel="stylesheet" href="styles/theme.css">
-    <title>Accueil</title>
-</head>
-
-<body>
-    <nav> <!-- Barre de navigation avec à gauche le menu et à droite le bouton de prise de RDV-->
-        <div class="nav__menu">
-            <a href="index.html" class="active">Accueil</a>
-            <a href="blog.html">Blog</a>
-            <a href="aboutMe.html">Qui suis-je ?</a>
-            <a href="consultations.html">Consultations</a>
-            <a href="contactez-moi.html">Contactez-moi</a>
-
-        </div>
-        <div class="nav__button">
-            <a href="priseRDV.html">Prendre un rdv</a>
-        </div>
-    </nav>
     <header class="header__accueil"> <!--header de l'accueil avec une image BG + 1 titre + le même bouton que nav-->
         <div class="header__text">
             <h1>T'es serré comme une sardine ? <br> Vient on ouvre une boîte ensemble !</h1>
-            <a class="nav__button" href="priseRDV.html">Prendre un RDV</a>
+            <a class="nav__button" href="priseRDV.php">Prendre un RDV</a>
         </div>
     </header>
     <main>
@@ -88,27 +64,5 @@
             <h2>Nos derniers articles</h2>
         </section>
     </main>
-    <footer> <!--Footer de la page accueil avec 3 parties (contact|menu|copyright)-->
-        <div class="footer__contact">
-            <p>Julie Guery</p>
-            <p>+33 6 67 67 22 81</p>
-        </div>
-        <div class="footer__menu">
-            <a href="blog.html">Blog</a>
-            <a href="aboutMe.html">Qui suis-je ?</a>
-            <a href="contactez-moi.html">Contactez-moi</a>
-            <a href="mentions legales.html">Mentions légales</a>
-            <a href="politique de cookies.html">Politique de cookies</a>
-
-
-        </div>
-        <div class="footer__followme">
-            <img src="/images/facebook.svg" alt="icone facebook">
-            <img id="ig" src="/images/instagram.svg" alt="icone instagram">
-        </div>
-
-    </footer>
-</body>
-
-
-</html>
+<?php
+include 'footer.php';?>
