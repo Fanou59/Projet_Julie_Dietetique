@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Montserrat:wght@400;500&display=swap"
         rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="styles/theme.css">
     <title>Prendre un RDV</title>
 </head>
@@ -33,175 +33,111 @@
         <h1>Prenons RDV</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. ?</p>
     </header>
-    <h2>Merci de remplir le formulaire suivant :</h2>
-
-    <!-- FORMULAIRE DE PRISE DE RDV -->
-    <div class="container">
-        <form action="#" method="get">
-
-            <!-- NOM + PRENOM du formulaire -->
-            <div class="row">
-                <div class="col">
-                    <label for="name">Nom :</label>
-                    <input id="name" name="name" type="text" class="form-control" aria-label="First name" required>
+    <main>
+        <div class="contener">
+            <h2 class="form__title">Merci de remplir le formulaire suivant</h2>
+            <form action="#" method="get">
+                <div class="userinfo">
+                    <div class="userinfo__inputbox">
+                        <label for="name">Nom :</label>
+                        <input id="name" name="name" type="text" required>
+                    </div>
+                    <div class="userinfo__inputbox">
+                        <label for="prenom">Prénom :</label>
+                        <input id="prenom" name="prenom" type="text" required>
+                    </div>
+                    <div class="userinfo__inputbox">
+                        <label for="email">Email :</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div class="userinfo__inputbox">
+                        <label for="telephone">Télephone :</label>
+                        <input id="telephone" name="telephone" type="tel" required>
+                    </div>
+                    <div class="userinfo__inputbox">
+                        <label for="age">Age :</label>
+                        <input id="age" name="age" type="number" required>
+                    </div>
+                    <div class="userinfo__genre">
+                        <span class="gender-title">Genre</span>
+                        <div class="gender-category">
+                            <input type="radio" name="homme" id="homme">
+                            <label for="homme">Homme</label>
+                            <input type="radio" name="femme" id="femme">
+                            <label for="femme">Femme</label>
+                            <input type="radio" name="nogender" id="nogender">
+                            <label for="nogender">Non genré</label>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <label for="prenom">Prénom :</label>
-                    <input id="prenom" name="prenom" type="text" class="form-control" aria-label="Last name" required>
-                </div>
-            </div>
-
-            <!-- TEL + MAIL du formulaire -->
-            <div class="row">
-                <div class="col">
-                    <label for="tel">Téléphone :</label>
-                    <input id="tel" name="tel" type="tel" class="form-control" placeholder="00.00.00.00.00"
-                        aria-label="Telephone" required>
-                </div>
-                <div class="col">
-                    <label for="mail">Votre mail :</label>
-                    <input id="mail" name="mail" type="email" class="form-control" aria-label="mail" required>
-                </div>
-            </div>
-
-            <!-- AGE + GENRE du formulaire -->
-            <div class="row">
-                <div class="col">
-                    <label for="age">Quel est votre âge :</label>
-                    <input id="age" name="age" type="number" class="form-control" aria-label="age">
-
-                </div>
-                <div class="col">
-                    <label for="genre">Genre :</label>
-                    <select class="form-select" id="genre">
-                        <option selected>Choisissez...</option>
-                        <option value="homme">Homme</option>
-                        <option value="femme">Femme</option>
-                        <option value="nonG">Non genré</option>
-                    </select>
-                </div>
-
-            </div>
-
-            <!-- Niveau d'activité + Mode alimentaire -->
-            <div class="row">
-                <div class="col">
+                <div class="useractivity">
                     <label for="activite">Quel est votre niveau d'activité ?</label>
-                    <select class="form-select" id="activite">
+                    <select id="activite">
                         <option selected>Choisissez...</option>
                         <option value="sedentaire">Sédentaire</option>
                         <option value="moyenA">Moyennement actif</option>
                         <option value="actif">Actif</option>
                         <option value="tresA">Très actif</option>
-
                     </select>
                 </div>
-                <div class="col">
+                <div class="userfood">
                     <label for="modeAlimentaire">Quel est votre mode alimentaire ?</label>
-                    <select class="form-select" id="modeAlimentaire">
+                    <select id="modeAlimentaire">
                         <option selected>Choisissez...</option>
                         <option value="equilibre">Equilibré</option>
                         <option value="flexitarien">Fléxitarien</option>
                         <option value="vegetarien">Végétarien</option>
                         <option value="vegetalien">Végétalien</option>
-
                     </select>
                 </div>
-
-            </div>
-
-            <!-- INTOLERENCES -->
-            <div class="mb-3">
-                <label for="intolerence" class="form-label">Renseignez ici vos intolérences alimentaires :</label>
-                <textarea name="intolerence" class="form-control" id="intolerence" rows="3"></textarea>
-            </div>
-
-            <!-- ALLERGIES -->
-            <div class="mb-3">
-                <label for="allergies" class="form-label">Renseigner ici vos allergies si vous en avez :</label>
-                <textarea name="allergies" class="form-control" id="allergies" rows="3"></textarea>
-            </div>
-
-            <!-- SPORTS PRATIQUES -->
-            <div id="sport" class="col">
-                <p>Quel(s) sport(s) pratiquez-vous ?</p>
-
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" name="fitness" id="fitness">
-                    <label class="form-check-label" for="fitness">Fitness</label>
+                <div class="usertextarea">
+                    <div class="usertextarea__intolerence">
+                        <label for="intolerence">Renseignez ici vos intolérences alimentaires :</label>
+                        <textarea name="intolerence" id="intolerence" rows="3"></textarea>
+                    </div>
+                    <div class="usertextarea__allergies">
+                        <label for="allergie">Renseigner ici vos allergies si vous en avez :</label>
+                        <textarea name="allergie" id="allergie" rows="3"></textarea>
+                    </div>
                 </div>
-
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" name="running" id="running">
-                    <label class="form-check-label" for="running">Running</label>
+                <div class="usersports">
+                    <span class="usersport__title">Quel(s) sport(s) pratiquez-vous ?</span>
+                    <div class="usersport__category">
+                        <input type="checkbox" name="fitness" id="fitness">
+                        <label for="fitness">Fitness</label>
+                        <input type="checkbox" name="running" id="running">
+                        <label for="running">Running</label>
+                        <input type="checkbox" name="marche" id="marche">
+                        <label for="marche">Marche</label>
+                        <input type="checkbox" name="cyclisme" id="cyclisme">
+                        <label for="cyclisme">Cyclisme</label>
+                        <input type="checkbox" name="artmartiaux" id="artmartiaux">
+                        <label for="artmartiaux">Art Martiaux</label>
+                        <input type="checkbox" name="yoga" id="yoga">
+                        <label for="yoga">Yoga</label>
+                        <input type="checkbox" name="pilates" id="pilates">
+                        <label for="pilates">Pilates</label>
+                        <input type="checkbox" name="autres" id="autres">
+                        <label for="autres">Autres</label>
+                        <input type="checkbox" name="nosport" id="nosport">
+                        <label for="nosport">Pas de sport</label>
+                    </div>
                 </div>
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="marche">Marche</label>
-                    <input class="form-check-input" type="checkbox" name="marche" id="marche">
-                </div>
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="cyclisme">Cyclisme</label>
-                    <input class="form-check-input" type="checkbox" name="cyclisme" id="cyclisme">
-                </div>
-
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="artmartiaux">Art Martiaux</label>
-                    <input class="form-check-input" type="checkbox" name="artmartiaux" id="artmartiaux">
-                </div>
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="yoga">Yoga</label>
-                    <input class="form-check-input" type="checkbox" name="yoga" id="yoga">
-                </div>
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="pilates">Pilates</label>
-                    <input class="form-check-input" type="checkbox" name="pilates" id="pilates">
-                </div>
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="artmartiaux">Art Martiaux</label>
-                    <input class="form-check-input" type="checkbox" name="artmartiaux" id="artmartiaux">
-                </div>
-
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="autres">Autres</label>
-                    <input class="form-check-input" type="checkbox" name="autres" id="autres">
-                </div>
-
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label" for="nosport">Pas de sport</label>
-                    <input class="form-check-input" type="checkbox" name="nosport" id="nosport">
-                </div>
-            </div>
-
-            <!-- CONFIDENTIALITE + BOUTON SUBMIT-->
-            <div class="row">
-                <div class="d-inline-flex justify-content-end">
-                    <div class="form-check form-check-inline">
-
-                        <input class="form-check-input" type="checkbox" name="confidentialite" id="confidentialite"
-                            required>
-                        <label class="form-check-label" for="confidentialite"><i>J'ai lu et j'accepte <a
-                                    href="charteRGPD.html">la
+                <div class="submit">
+                    <div class="submit__acceptrgpd">
+                        <input type="checkbox" name="rgpd" id="rgpd">
+                        <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la
                                     charte de
-                                    confidentialité</a></i></label>
+                                    confidentialité</a></i>
+                    </div>
+                    <div class="submit__btn">
+                        <input type="submit" value="Envoyer le formulaire">
                     </div>
                 </div>
+            </form>
 
-                <!-- BOUTON ENVOYER -->
-                <div class="d-inline-flex justify-content-end">
-                    <div class="form-check form-check-inline">
-                        <button type="submit" class="btn btn-primary">Envoyer le formulaire</button>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
+        </div>
+    </main>
 
     <section>
         <h2>Choisissez une date de rdv dans le calendrier ci-dessous</h2>

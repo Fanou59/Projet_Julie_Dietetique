@@ -418,57 +418,141 @@ main {
 /* ********** SECTION SLIDER BLOG ****************** */
 
 /************* FORMULAIRES - GLOBAL ************************** */
-input[type=text],
-.form-control,
-input[type=tel],
-input[type=email],
-input[type=number],
-.form-select {
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.contener {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.userinfo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.userinfo__inputbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 64px;
+}
+
+.userinfo__inputbox label,
+.userinfo__genre {
+    font-family: 'Montserrat', sans-serif;
+    margin: 16px 0;
+}
+
+.userinfo__inputbox input {
+    height: 40px;
+    width: 95%;
     border-radius: 20px;
-    background-color: var(--form-input);
     border: none;
     font-family: 'Montserrat', sans-serif;
-    /* height: 32px; */
-    margin-bottom: 5.56rem;
-    /* width: 308px; */
+    background-color: var(--form-input);
+    padding: 0 8px;
 }
 
-#sport {
-    margin-bottom: 5.56rem;
-
-}
-
-/* textarea {
-    height: 208px;
-    width: 100%;
-} */
-
-/* #objet {
-    width: 100%;
-} */
-
-/* form {
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-label,
-.form-label {
-    /* display: block; */
-    margin-bottom: 1.5rem;
+.gender-title,
+.usersports,
+.main-user-message {
     font-family: 'Montserrat', sans-serif;
-    /* font-size: 1rem; */
+}
+
+.gender-category,
+.usersport__category {
+    margin: 16px 0;
 
 }
 
-form p {
-    margin-bottom: 1.5rem;
+.gender-category label,
+.usersport__category label {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 16px 0 8px;
 }
 
+.useractivity label,
+.useractivity select,
+.userfood label,
+.userfood select,
+.usertextarea {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.useractivity select,
+.userfood select,
+.main-user-message input {
+    background-color: var(--form-input);
+    height: 40px;
+    width: 98%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10px;
+    margin-bottom: 64px;
+    margin-top: 16px;
+
+}
+
+.usertextarea textarea {
+    background-color: var(--form-input);
+    height: 80px;
+    width: 98%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px;
+    margin: 16px 0;
+    margin-bottom: 64px;
+}
+
+.usersport__category {
+    margin-bottom: 64px;
+    width: 98%;
+}
+
+.gender-category label,
+.gender-category input,
+.usersport-category input,
+.submit__acceptrgpd input,
+.submit__btn {
+    cursor: pointer;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 98%;
+}
+
+
+.submit__acceptrgpd {
+    margin-bottom: 24px;
+
+}
+
+.submit__btn {
+    margin-bottom: 64px;
+}
+
+.submit__btn input {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--button-color);
+    border-radius: 6px;
+    padding: 12px 24px;
+    border: none;
+}
 
 /************* FORMULAIRES - CONTACTEZ-MOI ******************* */
-form {
-    /* width: 60%; */
+/* form {
+    width: 60%;
     margin: 5.87rem 7.5rem 4rem;
 }
 
@@ -496,7 +580,7 @@ form {
 .envoyer label {
     display: inline;
 
-}
+} */
 
 /* ************** FORMULAIRE RDV ******************** */
 /* #genre {

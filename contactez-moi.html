@@ -33,37 +33,55 @@
         <p>Petit texte de bienvenue dans le header sous le h1</p>
     </header>
     <main> <!--Ici on mettra le formulaire de contact-->
-        <form action="#" method="post">
+        <div class="contener">
+            <h2 class="form-title">Merci de remplir le formulaire suivant</h2>
+            <form action="#" method="post">
+                <div class="userinfo">
+                    <div class="userinfo__inputbox">
+                        <label for="name">Nom :</label>
+                        <input id="name" name="name" type="text" required>
+                    </div>
+                    <div class="userinfo__inputbox">
+                        <label for="prenom">Prénom :</label>
+                        <input id="prenom" name="prenom" type="text" required>
+                    </div>
+                    <div class="userinfo__inputbox">
+                        <label for="email">Email :</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div class="userinfo__inputbox">
+                        <label for="telephone">Téléphone :</label>
+                        <input id="telephone" name="telephone" type="tel" required>
+                    </div>
+                </div>
 
-            <div class="form__identite">
-                <p>
-                    <label for="name">Nom : </label>
-                    <input type="text" name="name" id="name">
-                </p>
+                <div class="main-user-message">
+                    <label for="objet">Objet :</label>
+                    <input id="objet" name="objet" type="text" required>
+                </div>
+                <div class="usertextarea">
+                    <div class="usertextarea__message">
+                        <label for="message">Quel est votre message ?</label>
+                        <textarea name="message" id="message" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="submit">
+                    <div class="submit__acceptrgpd">
+                        <input type="checkbox" name="rgpd" id="rgpd">
+                        <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la
+                                    charte de
+                                    confidentialité</a></i>
+                    </div>
+                    <div class="submit__btn">
+                        <input type="submit" value="Envoyer le formulaire">
+                    </div>
+                </div>
+        </div>
 
-                <p>
-                    <label for="prenom">Prénom : </label>
-                    <input type="text" name="prenom" id="prenom">
-                </p>
-            </div>
-            <p>
-                <label for="objet">Objet de votre message : </label>
-                <input type="text" spellcheck="true" name="objet" id="objet">
-            </p>
-            <p>
-                <label for="message">Votre message : </label>
-                <textarea name="message" id="message" spellcheck="true" cols="30" rows="10"></textarea>
-            </p>
-            <div class="envoyer">
-                <p>
-                    <input type="checkbox" name="confidentialite" id="confidentialite" required>
-                    <label for="confidentialite"><i>J'ai lu et j'accepte <a href="charteRGPD.html">la charte de
-                                confidentialite</a></i></label>
-                </p>
 
-                <input id="envoyer" type="submit" value="Envoyer">
-            </div>
         </form>
+
+        </div>
     </main>
     <footer> <!--Footer de la page accueil avec 3 parties (contact|menu|copyright)-->
         <div class="footer__contact">Julie Guery +33 6 67 67 22 81</div>
