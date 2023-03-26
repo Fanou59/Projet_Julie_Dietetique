@@ -186,12 +186,6 @@ ul {
 
 }
 
-/* body {
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 /************ GLOBAL *************** */
 h1,
 h2,
@@ -256,6 +250,7 @@ nav {
     margin: 22px 120px;
 }
 
+
 nav a {
     color: var(--primary-color);
     padding-right: 1.125rem;
@@ -292,22 +287,20 @@ nav a {
 
 .header__text a,
 .nav__button a,
-#envoyer,
+.submit__btn input,
 .btn-primary {
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
     background-color: var(--button-color);
     border-radius: 6px;
     padding: 12px 24px;
-}
-
-.btn-primary {
     border: none;
+    font-size: 100%;
 }
 
 .header__text a:hover,
 .nav__button a:hover,
-#envoyer:hover,
+.submit__btn input:hover,
 .btn-primary:hover {
     background-color: var(--button-colorHover);
     color: var(--primary-color);
@@ -517,7 +510,8 @@ main {
 .gender-category input,
 .usersport-category input,
 .submit__acceptrgpd input,
-.submit__btn {
+.submit__btn,
+.submit__btn input {
     cursor: pointer;
 }
 
@@ -533,13 +527,13 @@ main {
 
 }
 
-.submit__btn input {
+/* .submit__btn input {
     color: var(--primary-color);
     background-color: var(--button-color);
     border-radius: 6px;
     padding: 12px 24px;
     border: none;
-}
+} */
 
 /************** FOOTER *************************** */
 
