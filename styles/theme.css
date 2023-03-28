@@ -510,7 +510,8 @@ main {
 .submit__acceptrgpd input,
 .submit__btn,
 .submit__btn input,
-.footer__followme img {
+.footer__followme img,
+footer i {
     cursor: pointer;
 }
 
@@ -562,12 +563,9 @@ footer {
     justify-content: space-between;
 }
 
-.footer__followme img {
-    width: 25px;
-}
-
-#ig {
-    margin-left: 1rem;
+footer i {
+    padding-left: 1rem;
+    font-size: 1rem;
 }
 
 footer a {

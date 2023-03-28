@@ -13,8 +13,8 @@
 
         </div>
         <div class="footer__followme">
-            <img src="/images/facebook.svg" alt="icone facebook">
-            <img id="ig" src="/images/instagram.svg" alt="icone instagram">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
         </div>
 
     </footer>
