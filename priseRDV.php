@@ -1,5 +1,8 @@
-<?php include 'header.php';
+<?php
+$titrePage = 'Prenons un RDV';
+include 'header.php';
 include 'nav.php';?>
+
     <header class="header__page">
         <h1>Prenons RDV</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. ?</p>

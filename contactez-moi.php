@@ -1,5 +1,6 @@
 <?php
 $page = 'contact';
+$titrePage = 'Contactez-moi';
 include 'header.php';
 include 'nav.php';
 ?>

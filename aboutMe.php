@@ -1,5 +1,6 @@
 <?php
 $page = 'qui';
+$titrePage = 'Qui suis-je ?';
 include 'header.php';
 include 'nav.php';
 ?>

@@ -1,9 +1,5 @@
-<?php
-
-$page = 'accueil';
-include 'header.php';
-include 'nav.php';
-?>
+<?php $page = 'accueil';
+$titrePage = 'Accueil';include 'header.php';include 'nav.php';?>
 
 
     <header class="header__accueil"> <!--header de l'accueil avec une image BG + 1 titre + le même bouton que nav-->
@@ -66,5 +62,4 @@ include 'nav.php';
             <h2>Nos derniers articles</h2>
         </section>
     </main>
-<?php
-include 'footer.php';?>
+<?php include 'footer.php';?>

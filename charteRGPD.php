@@ -1,4 +1,5 @@
 <?php
+$titrePage = 'Charte RGPD';
 include 'header.php';
 include 'nav.php';
 ?>

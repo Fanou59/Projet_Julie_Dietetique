@@ -14,7 +14,7 @@
 
 
     <link rel="stylesheet" href="styles/theme.css">
-    <title>Accueil</title>
+    <title><?php echo $titrePage; ?></title>
 </head>
 
 <body>

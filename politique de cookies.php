@@ -1,5 +1,5 @@
 <?php
-
+$titrePage = 'Politique de cookies';
 include 'header.php';
 include 'nav.php';
 ?>

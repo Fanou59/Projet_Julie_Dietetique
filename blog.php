@@ -1,4 +1,6 @@
-<?php $page = "blog";include 'header.php';include 'nav.php';?>
+<?php $page = "blog";
+$titrePage = 'Le blog';
+include 'header.php';include 'nav.php';?>
 
 <header class="header__page">
     <h1>work in progress</h1>

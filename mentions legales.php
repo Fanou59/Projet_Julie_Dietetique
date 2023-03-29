@@ -1,4 +1,5 @@
 <?php
+$titrePage = 'Mentions légales';
 include 'header.php';
 include 'nav.php';
 ?>

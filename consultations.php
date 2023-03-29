@@ -1,5 +1,6 @@
 <?php
 $page = 'consultation';
+$titrePage = 'Votre consultation';
 include 'header.php';
 include 'nav.php';
 ?>
