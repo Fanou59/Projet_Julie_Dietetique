@@ -7,4 +7,4 @@ include 'nav.php';
     <h1 class="header__page">WORK IN PROGRESS</h1>
 </header>
 
-    <?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
