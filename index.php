@@ -12,43 +12,60 @@ include 'nav.php'; ?>
 </header>
 <main>
     <h2>Mes prestations</h2>
-    <section class="catalogue"> <!-- Section offre de service avec 3 cartes-->
-        <div class="catalogue__cardServices">
-            <div class="catalogue__price">
-                35€
+    <!-- Test CARD bootstrap -->
+    <section class="container">
+    
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title text-center">Pack conseils efficaces</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Liste 1</li>
+                            <li class="list-group-item">Liste 2</li>
+                            <li class="list-group-item">Liste 3</li>
+                            <li class="list-group-item">Liste 4</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <h3>Pack conseils efficaces</h3>
-            <ul>
-                <li>liste</li>
-                <li>liste</li>
-                <li>liste</li>
-                <li>liste</li>
-            </ul>
-        </div>
-        <div class="catalogue__cardServices">
-            <div class="catalogue__price">
-                45€
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title text-center">Pack conseils efficaces</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Liste 1</li>
+                            <li class="list-group-item">Liste 2</li>
+                            <li class="list-group-item">Liste 3</li>
+                            <li class="list-group-item">Liste 4</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <h3>Pack suivi</h3>
-            <ul>
-                <li>liste</li>
-                <li>liste</li>
-                <li>liste</li>
-                <li>liste</li>
-            </ul>
-        </div>
-        <div class="catalogue__cardServices">
-            <div class="catalogue__price">
-                65€
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title text-center">Pack conseils efficaces</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Liste 1</li>
+                            <li class="list-group-item">Liste 2</li>
+                            <li class="list-group-item">Liste 3</li>
+                            <li class="list-group-item">Liste 4</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <h3>Pack 1ère consultation</h3>
-            <ul>
-                <li>liste</li>
-                <li>liste</li>
-                <li>liste</li>
-                <li>liste</li>
-            </ul>
         </div>
+    
     </section>
     <!--section pour insérer le testimonial, expérience et/ou avis client-->
     <section class="testimonial">
