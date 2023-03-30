@@ -70,6 +70,7 @@ include 'nav.php'; ?>
         </div>
     
     </section>
+
     <!--section pour insérer le testimonial, expérience et/ou avis client-->
     <section class="testimonial">
 
