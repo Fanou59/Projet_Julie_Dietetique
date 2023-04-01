@@ -4,20 +4,20 @@ include 'header.php';
 include 'nav.php'; ?>
 
 <!--header de l'accueil avec une image BG + 1 titre + le même bouton que nav-->
-<header class="header__accueil"> 
-    <div class="header__text">
-        <h1>T'es serré comme une sardine ? <br> Vient on ouvre une boîte ensemble !</h1>
-        <a class="nav__button" href="priseRDV.php">Prendre un RDV</a>
-    </div>
+<header class="header__accueil">
+    <!-- <div class="header__text"> -->
+    <h1 class="header__text">T'es serré comme une sardine ? <br> Vient on ouvre une boîte ensemble !</h1>
+    <!-- <a class="nav__button" href="priseRDV.php">Prendre un RDV</a> -->
+    <!-- </div> -->
 </header>
 <main>
     <h2>Mes prestations</h2>
 
     <!-- CARD_catalogue de service -->
     <section class="container">
-        <div class="row justify-content-center">
+        <div class="row row-cols-1 mx-3 row-cols-md-4 row-cols-lg-3 justify-content-center ">
 
-            <div class="col-10 col-md-4 mb-4">
+            <div class="col mb-4">
                 <div class="card">
                     <div class="card-body">
                         <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
@@ -34,7 +34,7 @@ include 'nav.php'; ?>
                 </div>
             </div>
 
-            <div class="col-10 col-md-4 mb-4">
+            <div class="col mb-4">
                 <div class="card">
                     <div class="card-body">
                         <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
@@ -51,7 +51,7 @@ include 'nav.php'; ?>
                 </div>
             </div>
 
-            <div class="col-10 col-md-4 mb-4">
+            <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
@@ -68,7 +68,7 @@ include 'nav.php'; ?>
                 </div>
             </div>
         </div>
-    
+
     </section>
 
     <!--section pour insérer le testimonial, expérience et/ou avis client-->
