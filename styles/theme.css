@@ -307,11 +307,8 @@ nav a {
     width: 180px;
 }
 
-.header__accueil a,
-.nav__button a,
 .navbar-brand,
 .submit__btn input,
-.btn-primary,
 .card-link {
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
@@ -322,11 +319,8 @@ nav a {
     font-size: 100%;
 }
 
-.header__text a:hover,
-.nav__button:hover,
 .navbar-brand:hover,
 .submit__btn input:hover,
-.btn-primary:hover,
 .card-link:hover {
     background-color: var(--button-colorHover);
     color: var(--primary-color);
@@ -422,10 +416,6 @@ main {
     justify-content: center;
 }
 
-.contener {
-    width: 100%;
-    max-width: 1200px;
-}
 
 /* disposition du bloc user en 2 colonnes */
 .userinfo {
