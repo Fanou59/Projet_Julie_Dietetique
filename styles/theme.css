@@ -235,22 +235,15 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .nav__menu a:hover {
-    text-decoration: underline;
-} */
-
 .nav-item a:hover {
     text-decoration: underline;
     color: var(--primary-color);
 
-
 }
-
 
 .active {
     font-weight: 600;
     color: var(--primary-color);
-
 }
 
 
@@ -263,16 +256,8 @@ li {
 
 /************ Barre de navigation *************** */
 
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 22px 120px;
-} */
-
-
 nav a {
     color: var(--primary-color);
-    /* padding-right: 1.125rem; */
 }
 
 .nav-item a,
@@ -307,9 +292,6 @@ nav a {
 }
 
 .header__text {
-    /* display: flex; */
-    /* padding-top: 280px;
-    padding-left: 180px; */
     margin-top: 4rem;
     padding-left: 3rem;
     color: var(--secondary-color);
@@ -355,8 +337,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-left: 7.5rem; */
-    /* margin-right: 7.5rem; */
 }
 
 /* ********** SECTION CATALOGUE ****************** */
@@ -387,8 +367,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 8.5rem;
-    margin-bottom: 7.5rem; */
     margin: 7.5rem;
 }
 
@@ -554,13 +532,6 @@ footer i {
 
 }
 
-/* .submit__btn input {
-    color: var(--primary-color);
-    background-color: var(--button-color);
-    border-radius: 6px;
-    padding: 12px 24px;
-    border: none;
-} */
 /*************** CARD-BLOG ******************************/
 
 .container {
@@ -600,7 +571,6 @@ footer {
 
 .footer__followme {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 footer i {
@@ -622,8 +592,6 @@ footer a {
     .header__accueil {
         align-items: start;
         align-content: center;
-        /* text-align: center; */
-        /* justify-content: center; */
         background-image: url(BG_header_mobile.jpg);
         background-position: center;
         height: 300px;
@@ -634,7 +602,6 @@ footer a {
     }
 
     .header__text {
-        /* margin-top: 2rem; */
         padding-left: 1rem;
 
     }
@@ -677,10 +644,3 @@ footer a {
 
 
 }
-
-/* @media screen and (max-width:1110px) {
-    .header__accueil {
-        background-image: url(BG_header_tablette.jpeg);
-        background-position: top;
-    }
-} */

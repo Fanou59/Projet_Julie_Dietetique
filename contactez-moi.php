@@ -11,7 +11,7 @@ include 'nav.php';
     <p>Petit texte de bienvenue dans le header sous le h1</p>
 </header>
 <main> <!--Ici on mettra le formulaire de contact-->
-    <div class="contener">
+    <div class="container">
         <h2 class="form-title">Merci de remplir le formulaire suivant</h2>
         <form action="#" method="post">
             <div class="userinfo">
