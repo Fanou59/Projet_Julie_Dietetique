@@ -326,7 +326,8 @@ nav a {
 .nav__button:hover,
 .navbar-brand:hover,
 .submit__btn input:hover,
-.btn-primary:hover {
+.btn-primary:hover,
+.card-link:hover {
     background-color: var(--button-colorHover);
     color: var(--primary-color);
 
