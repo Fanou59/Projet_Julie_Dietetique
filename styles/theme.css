@@ -200,7 +200,7 @@ h1 {
     line-height: 3.8rem;
 }
 
-.card-title {
+.card-title h1 {
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 3.5rem;
@@ -619,10 +619,6 @@ footer a {
         line-height: 2rem;
     }
 
-    .header__accueil a {
-        display: none;
-    }
-
     .header__accueil {
         align-items: start;
         align-content: center;
@@ -633,8 +629,12 @@ footer a {
         height: 300px;
     }
 
+    .card-title {
+        text-align: center;
+    }
+
     .header__text {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
         padding-left: 1rem;
 
     }
@@ -677,3 +677,10 @@ footer a {
 
 
 }
+
+/* @media screen and (max-width:1110px) {
+    .header__accueil {
+        background-image: url(BG_header_tablette.jpeg);
+        background-position: top;
+    }
+} */
