@@ -15,9 +15,9 @@ include 'nav.php'; ?>
 
     <!-- CARD_catalogue de service -->
     <section class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row justify-content-center">
 
-            <div class="col">
+            <div class="col-10 col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
@@ -34,7 +34,7 @@ include 'nav.php'; ?>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-10 col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
@@ -51,7 +51,7 @@ include 'nav.php'; ?>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-10 col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
