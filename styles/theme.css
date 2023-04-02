@@ -529,6 +529,15 @@ footer a {
     color: var(--secondary-color);
 }
 
+.fab {
+    font-size: 1.5rem;
+}
+
+.fab:hover {
+    font-weight: bold;
+}
+
+
 /* ************* MEDIA SCREEN ******************* */
 
 @media screen and (max-width:576px) {
