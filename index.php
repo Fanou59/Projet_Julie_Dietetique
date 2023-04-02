@@ -5,9 +5,11 @@ include 'nav.php'; ?>
 
 <!--header de l'accueil avec une image BG + 1 titre + le même bouton que nav-->
 <header class="header__accueil">
+    <div class="header__text">
+        <h1>T'es serré <br>comme <br>une sardine ?</h1>
+        <a class="navbar-brand" href="/priseRDV.php">Prenez un RDV</a>
 
-    <h1 class="header__text">T'es serré comme une sardine ? <br> Vient on ouvre une boîte ensemble !</h1>
-
+    </div>
 </header>
 <main>
     <h2>Mes prestations</h2>

@@ -289,18 +289,21 @@ nav a {
     background-repeat: no-repeat;
     background-position: bottom;
     height: 896px;
+    justify-content: center;
 }
 
 .header__text {
-    margin-top: 4rem;
     padding-left: 3rem;
     color: var(--secondary-color);
+    text-transform: uppercase;
+
 }
 
 .header__text h1 {
-    width: 40%;
-    text-transform: uppercase;
-    padding-bottom: 80px;
+    margin-bottom: 1.5rem;
+    font-size: 5.5rem;
+    line-height: 5.8rem;
+
 }
 
 .nav__button {
@@ -541,17 +544,19 @@ footer a {
 /* ************* MEDIA SCREEN ******************* */
 
 @media screen and (max-width:576px) {
-    h1 {
+    .header__text h1 {
         font-size: 2rem;
         line-height: 2rem;
     }
 
     .header__accueil {
-        align-items: start;
-        align-content: center;
         background-image: url(BG_header_mobile.jpg);
         background-position: center;
         height: 300px;
+    }
+
+    .header__text a {
+        display: none;
     }
 
     .card-title {
