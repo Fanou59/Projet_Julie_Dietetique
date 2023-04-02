@@ -88,7 +88,7 @@ include 'nav.php'; ?>
         <!--Ici je mettrais le slider avec les articles de blog pour la version mobile et en version desktop les 3 dernièrs articles-->
         <h2>Nos derniers articles</h2>
         <div class="container mt-4">
-            <div class="row row-ols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card pb-2">
                         <img src="/images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
