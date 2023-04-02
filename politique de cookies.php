@@ -4,7 +4,7 @@ include 'header.php';
 include 'nav.php';
 ?>
 
-<h2>POLITIQUE DE COOKIES</h2>
+<h1>POLITIQUE DE COOKIES</h1>
 <h3>1. L'utilisation de cookies</h3>
 <p>
     Notre site internet Julie diététique utilise des cookies. Un cookie est un petit fichier qui est envoyé avec les
@@ -159,4 +159,4 @@ include 'nav.php';
 <p>
     <i>Cette politique de Cookies a été créée sur le site Rocket Lawyer.</i>
 </p>
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>

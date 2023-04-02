@@ -488,7 +488,7 @@ main {
 
 .usertextarea textarea {
     background-color: var(--form-input);
-    height: 80px;
+    height: 160px;
     border-radius: 20px;
     border: none;
     padding: 1rem;
