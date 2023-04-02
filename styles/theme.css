@@ -215,37 +215,18 @@ h3 {
     line-height: 2.5rem;
     margin-top: 32px;
     margin-bottom: 64px;
+    text-transform: uppercase;
+
 
 }
 
-
-
 h2 {
-    text-transform: uppercase;
     text-align: center;
 }
 
 h3 {
     font-size: 1.5rem;
-    text-transform: uppercase;
 }
-
-p,
-a {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.nav-item a:hover {
-    text-decoration: underline;
-    color: var(--primary-color);
-
-}
-
-.active {
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
 
 p,
 ul,
@@ -256,19 +237,25 @@ li {
 
 /************ Barre de navigation *************** */
 
-nav a {
-    color: var(--primary-color);
-}
-
 .navbar .navbar-nav .nav-link.active,
 .nav-item a {
     color: var(--primary-color);
 
 }
 
+.active {
+    font-weight: 600;
+}
+
 .navbar-toggler {
     color: var(--primary-color);
     border-color: var(--primary-color);
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+
 }
 
 

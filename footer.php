@@ -56,11 +56,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                        distinctio earum repellat quaerat voluptatibus placeat nam,
-                        commodi optio pariatur est quia magnam eum harum corrupti
-                        dicta, aliquam sequi voluptate quas.
-                    </p>
+                        "Un régime, c'est la courte période de privations qui précède une augmentation de poids."</p>
                 </div>
             </div>
         </section>
