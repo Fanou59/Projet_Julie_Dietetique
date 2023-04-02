@@ -514,9 +514,15 @@ footer i {
 
 }
 
-/*************** CARD-BLOG ******************************/
+/*************** Qui-suis je ? ******************************/
+#profil {
+    border-radius: 50%;
+}
 
-
+#summary {
+    background-color: #eef;
+    border-radius: 3%;
+}
 
 /************** FOOTER *************************** */
 
