@@ -260,9 +260,9 @@ nav a {
     color: var(--primary-color);
 }
 
-.nav-item a,
-.nav-link.active {
-    color: var(--primary-color) !important;
+.navbar .navbar-nav .nav-link.active,
+.nav-item a {
+    color: var(--primary-color);
 
 }
 
@@ -525,54 +525,20 @@ footer i {
 
 /*************** CARD-BLOG ******************************/
 
-.container {
-    margin: 2rem 0;
-}
-
-.card {
-    padding-bottom: 1rem;
-}
-
-.card-text {
-    margin-bottom: 2rem;
-}
 
 
 /************** FOOTER *************************** */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
-    height: 264px;
 }
 
-.footer__contact {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer__menu {
-    display: flex;
-    justify-content: center;
-
-}
-
-.footer__followme {
-    display: flex;
-}
-
-footer i {
-    padding-left: 1rem;
-    font-size: 1rem;
-}
 
 footer a {
     color: var(--secondary-color);
-    margin-right: 1rem;
 }
+
+/* ************* MEDIA SCREEN ******************* */
 
 @media screen and (max-width:576px) {
     h1 {
@@ -601,33 +567,6 @@ footer a {
 
     }
 
-    footer,
-    .footer__menu {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer__contact {
-        text-align: center;
-    }
-
-    .footer__followme {
-        /* justify-content: center; */
-        /* justify-content: space-around; */
-        /* align-content: space-around; */
-
-
-    }
-
-    footer a {
-        margin-right: 0;
-    }
-
-    footer i {
-        padding-left: 0;
-
-    }
 
     .testimonial {
         margin: 2rem;
