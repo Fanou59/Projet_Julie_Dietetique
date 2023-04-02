@@ -286,6 +286,7 @@ nav a {
     display: flex;
     flex-direction: column;
     background-image: url(BG_header.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     height: 896px;
