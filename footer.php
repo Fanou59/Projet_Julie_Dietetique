@@ -83,7 +83,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2023 Copyright:
-        <a class="text-white" href="#">Julie Guery, diéticienne et nutrionniste, numéro adélie : 00 00 00 00</a>
+        <a class="text-white" href="/contactez-moi.php">Julie Guery, diéticienne et nutrionniste, numéro adélie : 00 00 00 00</a>
     </div>
     <!-- Copyright -->
 </footer>
