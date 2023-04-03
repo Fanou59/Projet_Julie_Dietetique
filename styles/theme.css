@@ -287,7 +287,7 @@ li {
 
 }
 
-.header__text h1 {
+.header__title {
     margin-bottom: 1.5rem;
     font-size: 5.5rem;
     line-height: 5.8rem;
@@ -396,10 +396,20 @@ main {
 
 .testimonial p {
     margin-top: 0.5rem;
+
 }
 
 
-/* ********** SECTION SLIDER BLOG ****************** */
+/* ********** BLOG_ARTICLE ****************** */
+
+#h1Article {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img-fluid {
+    margin-top: 2rem;
+}
 
 /************* FORMULAIRES ************************** */
 main {
@@ -547,7 +557,7 @@ footer a {
 /* ************* MEDIA SCREEN ******************* */
 
 @media screen and (max-width:576px) {
-    .header__text h1 {
+    .header__title {
         font-size: 2rem;
         line-height: 2rem;
     }

@@ -19,7 +19,7 @@ include 'nav.php'; ?>
                         <div class="card-title">Test titre card blog</div>
                         <h6 class="card-subtitle mb-2 text-body-secondary">Date</h6>
                         <p class="card-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi, nesciunt provident quisquam nihil natus beatae dignissimos necessitatibus vero! Et repellendus magnam voluptatibus dignissimos earum quasi atque optio deleniti? Quod.</p>
-                        <a href="#" class="card-link">Lien vers l'article</a>
+                        <a href="article_exemple.php" class="card-link">Lien vers l'article</a>
                     </div>
                 </div>
             </div>
