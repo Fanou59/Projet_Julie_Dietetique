@@ -215,37 +215,18 @@ h3 {
     line-height: 2.5rem;
     margin-top: 32px;
     margin-bottom: 64px;
+    text-transform: uppercase;
+
 
 }
 
-
-
 h2 {
-    text-transform: uppercase;
     text-align: center;
 }
 
 h3 {
     font-size: 1.5rem;
-    text-transform: uppercase;
 }
-
-p,
-a {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.nav-item a:hover {
-    text-decoration: underline;
-    color: var(--primary-color);
-
-}
-
-.active {
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
 
 p,
 ul,
@@ -256,19 +237,25 @@ li {
 
 /************ Barre de navigation *************** */
 
-nav a {
+.navbar .navbar-nav .nav-link.active,
+.nav-item a {
     color: var(--primary-color);
+
 }
 
-.nav-item a,
-.nav-link.active {
-    color: var(--primary-color) !important;
-
+.active {
+    font-weight: 600;
 }
 
 .navbar-toggler {
     color: var(--primary-color);
     border-color: var(--primary-color);
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+
 }
 
 
@@ -286,21 +273,25 @@ nav a {
     display: flex;
     flex-direction: column;
     background-image: url(BG_header.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     height: 896px;
+    justify-content: center;
 }
 
 .header__text {
-    margin-top: 4rem;
     padding-left: 3rem;
     color: var(--secondary-color);
+    text-transform: uppercase;
+
 }
 
 .header__text h1 {
-    width: 40%;
-    text-transform: uppercase;
-    padding-bottom: 80px;
+    margin-bottom: 1.5rem;
+    font-size: 5.5rem;
+    line-height: 5.8rem;
+
 }
 
 .nav__button {
@@ -484,7 +475,7 @@ main {
 
 .usertextarea textarea {
     background-color: var(--form-input);
-    height: 80px;
+    height: 160px;
     border-radius: 20px;
     border: none;
     padding: 1rem;
@@ -523,69 +514,52 @@ footer i {
 
 }
 
-/*************** CARD-BLOG ******************************/
-
-.container {
-    margin: 2rem 0;
+/*************** Qui-suis je ? ******************************/
+#profil {
+    border-radius: 50%;
 }
 
-.card {
-    padding-bottom: 1rem;
+#summary {
+    background-color: #eef;
+    border-radius: 3%;
 }
-
-.card-text {
-    margin-bottom: 2rem;
-}
-
 
 /************** FOOTER *************************** */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
-    height: 264px;
 }
 
-.footer__contact {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer__menu {
-    display: flex;
-    justify-content: center;
-
-}
-
-.footer__followme {
-    display: flex;
-}
-
-footer i {
-    padding-left: 1rem;
-    font-size: 1rem;
-}
 
 footer a {
     color: var(--secondary-color);
-    margin-right: 1rem;
 }
 
+.fab {
+    font-size: 1.5rem;
+}
+
+.fab:hover {
+    font-weight: bold;
+}
+
+
+/* ************* MEDIA SCREEN ******************* */
+
 @media screen and (max-width:576px) {
-    h1 {
+    .header__text h1 {
         font-size: 2rem;
         line-height: 2rem;
     }
 
     .header__accueil {
-        align-items: start;
-        align-content: center;
         background-image: url(BG_header_mobile.jpg);
         background-position: center;
         height: 300px;
+    }
+
+    .header__text a {
+        display: none;
     }
 
     .card-title {
@@ -601,33 +575,6 @@ footer a {
 
     }
 
-    footer,
-    .footer__menu {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer__contact {
-        text-align: center;
-    }
-
-    .footer__followme {
-        /* justify-content: center; */
-        /* justify-content: space-around; */
-        /* align-content: space-around; */
-
-
-    }
-
-    footer a {
-        margin-right: 0;
-    }
-
-    footer i {
-        padding-left: 0;
-
-    }
 
     .testimonial {
         margin: 2rem;
