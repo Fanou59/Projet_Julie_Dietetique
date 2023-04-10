@@ -14,33 +14,37 @@ include 'nav.php';
     <div class="container">
         <h2 class="form-title">Merci de remplir le formulaire suivant</h2>
         <form action="#" method="post">
-            <div class="userinfo">
-                <div class="userinfo__inputbox">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-3">
                     <label for="name">Nom :</label>
-                    <input id="name" name="name" type="text" required>
+                    <input class="form-control" id="name" name="name" type="text" required>
                 </div>
-                <div class="userinfo__inputbox">
+                <div class="col mb-3">
                     <label for="prenom">Prénom :</label>
-                    <input id="prenom" name="prenom" type="text" required>
+                    <input class="form-control" id="prenom" name="prenom" type="text" required>
                 </div>
-                <div class="userinfo__inputbox">
+                <div class="col mb-3">
                     <label for="email">Email :</label>
-                    <input id="email" name="email" type="email" required>
+                    <input class="form-control" id="email" name="email" type="email" required>
                 </div>
-                <div class="userinfo__inputbox">
+                <div class="col mb-3">
                     <label for="telephone">Téléphone :</label>
-                    <input id="telephone" name="telephone" type="tel" required>
+                    <input class="form-control" id="telephone" name="telephone" type="tel" required>
                 </div>
             </div>
 
-            <div class="main-user-message">
-                <label for="objet">Objet :</label>
-                <input id="objet" name="objet" type="text" required>
+            <div class="row">
+                <div class="col mb-3">
+                    <label for="objet">Objet :</label>
+                    <input class="form-control" id="objet" name="objet" type="text" required>
+                </div>
             </div>
-            <div class="usertextarea">
-                <div class="usertextarea__message">
-                    <label for="message">Quel est votre message ?</label>
-                    <textarea name="message" id="message" rows="3"></textarea>
+            <div class="row">
+                <div class="col mb-3">
+                    <div class="col mb-3">
+                        <label for="message">Quel est votre message ?</label>
+                        <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+                    </div>
                 </div>
             </div>
             <div class="submit">

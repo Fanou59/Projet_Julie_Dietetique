@@ -421,98 +421,35 @@ main {
 
 
 /* disposition du bloc user en 2 colonnes */
-.userinfo {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.userinfo__inputbox {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-}
 
 /* Uniformisation des marges en bas à 64px pour l'ensemble du formulaire */
-.userinfo__inputbox input,
-.gender-category,
-.main-user-message input,
-.useractivity,
-.userfood,
-.userfood option,
-.usertextarea textarea,
-.usersport__category,
+
 .submit__btn {
     margin-bottom: 4rem;
 }
 
 /* Uniformisation des marges hautes à 16px pour l'ensemble du formulaire */
-.userinfo__inputbox input,
-.gender-category,
-.main-user-message input,
-.useractivity select,
-.userfood select,
-.usertextarea textarea,
-.usersport__category,
+
 .submit__acceptrgpd,
 .form-control,
 .form-select {
     margin-top: 1rem;
 }
 
-.userinfo__inputbox input {
-    width: 95%;
-}
 
 .form-control,
-.form-select,
-.userinfo__inputbox input {
-    /* height: 40px; */
+.form-select {
     border-radius: 20px;
     border: none;
     background-color: var(--form-input);
 }
 
-
-.gender-category label,
-.usersport__category label,
-.useractivity select,
-.userfood select,
-.main-user-message input,
-.userinfo__inputbox input {
-    padding: 0 0.5rem;
-}
-
-.useractivity select,
-.userfood select,
-.main-user-message input {
-    background-color: var(--form-input);
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-
-}
-
-.usertextarea textarea {
-    background-color: var(--form-input);
-    height: 160px;
-    border-radius: 20px;
-    border: none;
-    padding: 1rem;
-
-}
-
-.usersport__category,
-.submit,
-.usertextarea textarea,
-.useractivity select,
-.userfood select,
-.main-user-message input {
+.submit {
     width: 98%;
 }
 
-.gender-category label,
-.gender-category input,
-.usersport-category input,
+
 .submit__acceptrgpd input,
 .submit__btn,
 .submit__btn input,
