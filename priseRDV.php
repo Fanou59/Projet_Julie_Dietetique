@@ -75,87 +75,85 @@ include 'nav.php'; ?>
                     <label for="allergie">Renseigner ici vos allergies si vous en avez :</label>
                     <textarea class="form-control" name="allergie" id="allergie" rows="3"></textarea>
                 </div>
-                <!-- Choix du sport pratiqué -->
-                <div class="col mb-3">
-                    <fieldset>
-                        <legend class="mb-3"> Quel(s) sport(s) pratiquez-vous ?</legend>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="fitness" id="fitness">
-                            <label class="form-check-label" for="fitness">Fitness</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="running" id="running">
-                            <label class="form-check-label" for="running">Running</label>
-
-                        </div>
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="checkbox" name="marche" id="marche">
-                            <label class="form-check-label" for="marche">Marche</label>
-                        </div>
-
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="checkbox" name="cyclisme" id="cyclisme">
-
-                            <label class="form-check-label" for="cyclisme">Cyclisme</label>
-                        </div>
-
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="checkbox" name="artmartiaux" id="artmartiaux">
-
-                            <label class="form-check-label" for="artmartiaux">Art Martiaux</label>
-                        </div>
-
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="checkbox" name="yoga" id="yoga">
-
-                            <label class="form-check-label" for="yoga">Yoga</label>
-                        </div>
-
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="checkbox" name="pilates" id="pilates">
-
-                            <label class="form-check-label" for="pilates">Pilates</label>
-                        </div>
-
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="checkbox" name="autres" id="autres">
-
-                            <label class="form-check-label" for="autres">Autres</label>
-                        </div>
-
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="checkbox" name="nosport" id="nosport">
-
-                            <label for="nosport">Pas de sport</label>
-                        </div>
-
-                    </fieldset>
-
-                </div>
-                <!-- Modifier les class de submit -->
-                <div class="submit">
-                    <div class="submit__acceptrgpd">
-                        <input type="checkbox" name="rgpd" id="rgpd">
-                        <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.php">la
-                                    charte de
-                                    confidentialité</a></i>
-                    </div>
-                    <div class="submit__btn">
-                        <input type="submit" value="Envoyer le formulaire">
-                    </div>
-                </div>
             </div>
 
+            <!-- Choix du sport pratiqué -->
+            <fieldset>
+                <legend class="mb-3"> Quel(s) sport(s) pratiquez-vous ?</legend>
+                <div class="row row-cols-2 row-cols-md-6 mx-auto">
+
+                    <div class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="fitness" id="fitness">
+                        <label class="form-check-label" for="fitness">Fitness</label>
+                    </div>
+
+                    <div class="col form-check">
+                        <input class="form-check-input" type="checkbox" name="running" id="running">
+                        <label class="form-check-label" for="running">Running</label>
+
+                    </div>
+                    <div class="col form-check">
+
+                        <input class="form-check-input" type="checkbox" name="marche" id="marche">
+                        <label class="form-check-label" for="marche">Marche</label>
+                    </div>
+
+                    <div class="col form-check">
+
+                        <input class="form-check-input" type="checkbox" name="cyclisme" id="cyclisme">
+                        <label class="form-check-label" for="cyclisme">Cyclisme</label>
+                    </div>
+
+                    <div class="col form-check">
+
+                        <input class="form-check-input" type="checkbox" name="artmartiaux" id="artmartiaux">
+                        <label class="form-check-label" for="artmartiaux">Art Martiaux</label>
+                    </div>
+
+                    <div class="col form-check">
+
+                        <input class="form-check-input" type="checkbox" name="yoga" id="yoga">
+                        <label class="form-check-label" for="yoga">Yoga</label>
+                    </div>
+
+                    <div class="col form-check">
+
+                        <input class="form-check-input" type="checkbox" name="pilates" id="pilates">
+                        <label class="form-check-label" for="pilates">Pilates</label>
+                    </div>
+
+                    <div class="col form-check">
+
+                        <input class="form-check-input" type="checkbox" name="autres" id="autres">
+                        <label class="form-check-label" for="autres">Autres</label>
+                    </div>
+
+                    <div class="col form-check">
+
+                        <input class="form-check-input" type="checkbox" name="nosport" id="nosport">
+                        <label for="nosport">Pas de sport</label>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <!-- Modifier les class de submit -->
+            <div class="submit">
+                <div class="submit__acceptrgpd">
+                    <input type="checkbox" name="rgpd" id="rgpd">
+                    <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.php">la
+                                charte de
+                                confidentialité</a></i>
+                </div>
+                <div class="submit__btn">
+                    <input type="submit" value="Envoyer le formulaire">
+                </div>
+            </div>
         </form>
-        <!-- <div class="row row-cols-1 row-cols-md-2">
+
+    </div>
+
+    <!-- <div class="row row-cols-1 row-cols-md-2">
             <form action="#" method="get">
                 <div class="col userinfo">
                     <div class="userinfo__inputbox">
