@@ -26,7 +26,7 @@
                 <li class="nav-item">
                     <a class="<?php if ($page == 'consultation') {
                                     echo 'nav-link active';
-                                } else echo 'nav-link'; ?>" href="/consultations.php">Consultations</a>
+                                } else echo 'nav-link'; ?>" href="/connexion.php">Consultations</a>
                 </li>
                 <li class="nav-item">
                     <a class="<?php if ($page == 'contact') {

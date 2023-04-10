@@ -238,7 +238,8 @@ li {
 /************ Barre de navigation *************** */
 
 .navbar .navbar-nav .nav-link.active,
-.nav-item a {
+.nav-item a,
+a {
     color: var(--primary-color);
 
 }
@@ -252,7 +253,8 @@ li {
     border-color: var(--primary-color);
 }
 
-.nav-item a:hover {
+.nav-item a:hover,
+a:hover {
     text-decoration: underline;
     color: var(--primary-color);
 
@@ -451,13 +453,20 @@ main {
 .userfood select,
 .usertextarea textarea,
 .usersport__category,
-.submit__acceptrgpd {
+.submit__acceptrgpd,
+.form-control,
+.form-select {
     margin-top: 1rem;
 }
 
 .userinfo__inputbox input {
-    height: 40px;
     width: 95%;
+}
+
+.form-control,
+.form-select,
+.userinfo__inputbox input {
+    /* height: 40px; */
     border-radius: 20px;
     border: none;
     background-color: var(--form-input);
@@ -523,6 +532,11 @@ footer i {
     margin-bottom: 1.5rem;
 
 }
+
+.cnx {
+    align-items: center;
+}
+
 
 /*************** Qui-suis je ? ******************************/
 #profil {
