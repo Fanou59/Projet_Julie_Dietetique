@@ -3,6 +3,7 @@ $titrePage = 'Mentions légales';
 include 'header.php';
 include 'nav.php';
 ?>
+<div class="container">
     <h1>Mentions légales</h1>
 
     <h2>Définitions</h2>
@@ -16,8 +17,7 @@ include 'nav.php';
         – vidéos.</p>
 
     <p><b>Informations clients :</b> Ci après dénommé « Information (s) » qui correspondent à l’ensemble des données
-        personnelles susceptibles d’être détenues par <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> pour la gestion de votre compte, de la
+        personnelles susceptibles d’être détenues par <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> pour la gestion de votre compte, de la
         gestion de la relation client et à des fins d’analyses et de statistiques.</p>
 
 
@@ -43,8 +43,7 @@ include 'nav.php';
     </p>
 
     <div ng-bind-html="linkHTML">
-        <p>Ces mentions légales RGPD sont issues du <a href="https://fr.orson.io/1371/generateur-mentions-legales"
-                title="générateur de mentions légales RGPD d">générateur de mentions légales RGPD d'Orson.io</a></p>
+        <p>Ces mentions légales RGPD sont issues du <a href="https://fr.orson.io/1371/generateur-mentions-legales" title="générateur de mentions légales RGPD d">générateur de mentions légales RGPD d'Orson.io</a></p>
     </div>
 
 
@@ -58,13 +57,11 @@ include 'nav.php';
 
     <p>L’utilisation du site <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> implique l’acceptation
         pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont
-        susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> sont donc invités à les consulter de
+        susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> sont donc invités à les consulter de
         manière régulière.</p>
 
     <p>Ce site internet est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de
-        maintenance technique peut être toutefois décidée par <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, qui s’efforcera alors de communiquer
+        maintenance technique peut être toutefois décidée par <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, qui s’efforcera alors de communiquer
         préalablement aux utilisateurs les dates et heures de l’intervention.
         Le site web <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> est mis à jour régulièrement par
         <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> responsable. De la même façon, les mentions
@@ -76,8 +73,7 @@ include 'nav.php';
 
     <p>Le site internet <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> a pour objet de fournir une
         information concernant l’ensemble des activités de la société.
-        <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> s’efforce de fournir sur le site <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> des informations aussi précises que
+        <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> s’efforce de fournir sur le site <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> des informations aussi précises que
         possible. Toutefois, il ne pourra être tenu responsable des oublis, des inexactitudes et des carences dans la
         mise à jour, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
     </p>
@@ -114,8 +110,7 @@ include 'nav.php';
         intellectuelle et détient les droits d’usage sur tous les éléments accessibles sur le site internet, notamment
         les textes, images, graphismes, logos, vidéos, icônes et sons.
         Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du
-        site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>.</p>
+        site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>.</p>
 
     <p>Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme
         constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du
@@ -123,13 +118,11 @@ include 'nav.php';
 
     <h2>6. Limitations de responsabilité.</h2>
 
-    <p><a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> agit en tant qu’éditeur du site. <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> est responsable de la qualité et de la
+    <p><a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> agit en tant qu’éditeur du site. <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> est responsable de la qualité et de la
         véracité du Contenu qu’il publie. </p>
 
     <p><a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> ne pourra être tenu responsable des dommages
-        directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site internet <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, et résultant soit de l’utilisation d’un
+        directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site internet <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, et résultant soit de l’utilisation d’un
         matériel ne répondant pas aux spécifications indiquées au point 4, soit de l’apparition d’un bug ou d’une
         incompatibilité.</p>
 
@@ -154,12 +147,10 @@ include 'nav.php';
     <h3>7.1 Responsables de la collecte des données personnelles</h3>
 
     <p>Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur et de
-        sa navigation sur le Site, le responsable du traitement des Données Personnelles est : GUERY. <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>est représenté par Guery Julie, son
+        sa navigation sur le Site, le responsable du traitement des Données Personnelles est : GUERY. <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>est représenté par Guery Julie, son
         représentant légal</p>
 
-    <p>En tant que responsable du traitement des données qu’il collecte, <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> s’engage à respecter le cadre des
+    <p>En tant que responsable du traitement des données qu’il collecte, <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> s’engage à respecter le cadre des
         dispositions légales en vigueur. Il lui appartient notamment au Client d’établir les finalités de ses
         traitements de données, de fournir à ses prospects et clients, à partir de la collecte de leurs consentements,
         une information complète sur le traitement de leurs données personnelles et de maintenir un registre des
@@ -185,8 +176,7 @@ include 'nav.php';
 
         <li>pour améliorer la navigation sur le Site : données de connexion et d’utilisation </li>
 
-        <li>pour mener des enquêtes de satisfaction facultatives sur <a
-                href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> : adresse email </li>
+        <li>pour mener des enquêtes de satisfaction facultatives sur <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> : adresse email </li>
         <li>pour mener des campagnes de communication (sms, mail) : numéro de téléphone, adresse email</li>
 
 
@@ -198,8 +188,7 @@ include 'nav.php';
     <h3>7.3 Droit d’accès, de rectification et d’opposition</h3>
 
     <p>
-        Conformément à la réglementation européenne en vigueur, les Utilisateurs de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> disposent des droits suivants : </p>
+        Conformément à la réglementation européenne en vigueur, les Utilisateurs de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> disposent des droits suivants : </p>
     <ul>
 
         <li>droit d'accès (article 15 RGPD) et de rectification (article 16 RGPD), de mise à jour, de complétude des
@@ -216,14 +205,12 @@ include 'nav.php';
         <li>droit à la portabilité des données que les Utilisateurs auront fournies, lorsque ces données font l’objet de
             traitements automatisés fondés sur leur consentement ou sur un contrat (article 20 RGPD) </li>
 
-        <li>droit de définir le sort des données des Utilisateurs après leur mort et de choisir à qui <a
-                href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> devra communiquer (ou non) ses données
+        <li>droit de définir le sort des données des Utilisateurs après leur mort et de choisir à qui <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> devra communiquer (ou non) ses données
             à un tiers qu’ils aura préalablement désigné</li>
     </ul>
 
     <p>Dès que <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> a connaissance du décès d’un
-        Utilisateur et à défaut d’instructions de sa part, <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> s’engage à détruire ses données, sauf si
+        Utilisateur et à défaut d’instructions de sa part, <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> s’engage à détruire ses données, sauf si
         leur conservation s’avère nécessaire à des fins probatoires ou pour répondre à une obligation légale.</p>
 
     <p>Si l’Utilisateur souhaite savoir comment <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>
@@ -234,15 +221,12 @@ include 'nav.php';
     GUERY – DPO, Guery Julie <br>
     180 route de cobrieux 59242 Genech.
 
-    <p>Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> corrige, mette à jour ou supprime, en
+    <p>Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> corrige, mette à jour ou supprime, en
         s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport). </p>
 
     <p>
-        Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> par la loi, notamment en matière de
-        conservation ou d’archivage des documents. Enfin, les Utilisateurs de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> peuvent déposer une réclamation auprès des
+        Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> par la loi, notamment en matière de
+        conservation ou d’archivage des documents. Enfin, les Utilisateurs de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> peuvent déposer une réclamation auprès des
         autorités de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).</p>
 
     <h3>7.4 Non-communication des données personnelles</h3>
@@ -260,20 +244,16 @@ include 'nav.php';
         <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> s’engage à prendre toutes les précautions
         nécessaires afin de préserver la sécurité des Informations et notamment qu’elles ne soient pas communiquées à
         des personnes non autorisées. Cependant, si un incident impactant l’intégrité ou la confidentialité des
-        Informations du Client est portée à la connaissance de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, celle-ci devra dans les meilleurs délais
-        informer le Client et lui communiquer les mesures de corrections prises. Par ailleurs <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> ne collecte aucune « données sensibles ».
+        Informations du Client est portée à la connaissance de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, celle-ci devra dans les meilleurs délais
+        informer le Client et lui communiquer les mesures de corrections prises. Par ailleurs <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> ne collecte aucune « données sensibles ».
     </p>
 
     <p>
-        Les Données Personnelles de l’Utilisateur peuvent être traitées par des filiales de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> et des sous-traitants (prestataires de
+        Les Données Personnelles de l’Utilisateur peuvent être traitées par des filiales de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> et des sous-traitants (prestataires de
         services), exclusivement afin de réaliser les finalités de la présente politique.</p>
     <p>
         Dans la limite de leurs attributions respectives et pour les finalités rappelées ci-dessus, les principales
-        personnes susceptibles d’avoir accès aux données des Utilisateurs de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> sont principalement les agents de notre
+        personnes susceptibles d’avoir accès aux données des Utilisateurs de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> sont principalement les agents de notre
         service client.</p>
 
     <div ng-bind-html="rgpdHTML"></div>
@@ -290,33 +270,26 @@ include 'nav.php';
         les informations nécessaires pour les aider à respecter leurs propres obligations réglementaires en matière de
         reporting.</p>
     <p>
-        Aucune information personnelle de l'utilisateur du site <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> n'est publiée à l'insu de l'utilisateur,
-        échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l'hypothèse du rachat de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> et de ses droits permettrait la
+        Aucune information personnelle de l'utilisateur du site <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> n'est publiée à l'insu de l'utilisateur,
+        échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l'hypothèse du rachat de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> et de ses droits permettrait la
         transmission des dites informations à l'éventuel acquéreur qui serait à son tour tenu de la même obligation de
-        conservation et de modification des données vis à vis de l'utilisateur du site <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>.</p>
+        conservation et de modification des données vis à vis de l'utilisateur du site <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>.</p>
 
     <h3>Sécurité</h3>
 
     <p>
-        Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé, <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> utilise des réseaux protégés par des
+        Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé, <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> utilise des réseaux protégés par des
         dispositifs standards tels que par pare-feu, la pseudonymisation, l’encryption et mot de passe. </p>
 
     <p>
-        Lors du traitement des Données Personnelles, <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>prend toutes les mesures raisonnables visant
+        Lors du traitement des Données Personnelles, <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>prend toutes les mesures raisonnables visant
         à les protéger contre toute perte, utilisation détournée, accès non autorisé, divulgation, altération ou
         destruction.</p>
 
     <h2>9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
     <p>
         Le site <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> contient un certain nombre de liens
-        hypertextes vers d’autres sites, mis en place avec l’autorisation de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>. Cependant, <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> n’a pas la possibilité de vérifier le
+        hypertextes vers d’autres sites, mis en place avec l’autorisation de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>. Cependant, <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> n’a pas la possibilité de vérifier le
         contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.</p>
     Sauf si vous décidez de désactiver les cookies, vous acceptez que le site puisse les utiliser. Vous pouvez à tout
     moment désactiver ces cookies et ce gratuitement à partir des possibilités de désactivation qui vous sont offertes
@@ -343,20 +316,17 @@ include 'nav.php';
         que des Cookies soient enregistrés dans le terminal ou, au contraire, qu’ils soient rejetés, soit
         systématiquement, soit selon leur émetteur. L’Utilisateur peut également configurer son logiciel de navigation
         de manière à ce que l’acceptation ou le refus des Cookies lui soient proposés ponctuellement, avant qu’un Cookie
-        soit susceptible d’être enregistré dans son terminal. <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> informe l’Utilisateur que, dans ce cas, il
+        soit susceptible d’être enregistré dans son terminal. <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> informe l’Utilisateur que, dans ce cas, il
         se peut que les fonctionnalités de son logiciel de navigation ne soient pas toutes disponibles.</p>
     <p>
         Si l’Utilisateur refuse l’enregistrement de Cookies dans son terminal ou son navigateur, ou si l’Utilisateur
         supprime ceux qui y sont enregistrés, l’Utilisateur est informé que sa navigation et son expérience sur le Site
-        peuvent être limitées. Cela pourrait également être le cas lorsque <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> ou l’un de ses prestataires ne peut pas
+        peuvent être limitées. Cela pourrait également être le cas lorsque <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> ou l’un de ses prestataires ne peut pas
         reconnaître, à des fins de compatibilité technique, le type de navigateur utilisé par le terminal, les
         paramètres de langue et d’affichage ou le pays depuis lequel le terminal semble connecté à Internet.</p>
     <p>
         Le cas échéant, <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> décline toute responsabilité
-        pour les conséquences liées au fonctionnement dégradé du Site et des services éventuellement proposés par <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, résultant (i) du refus de Cookies par
+        pour les conséquences liées au fonctionnement dégradé du Site et des services éventuellement proposés par <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, résultant (i) du refus de Cookies par
         l’Utilisateur (ii) de l’impossibilité pour <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>
         d’enregistrer ou de consulter les Cookies nécessaires à leur fonctionnement du fait du choix de l’Utilisateur.
         Pour la gestion des Cookies et des choix de l’Utilisateur, la configuration de chaque navigateur est différente.
@@ -376,10 +346,8 @@ include 'nav.php';
         tablette, téléphone portable).</p>
     <p>
         Ces types de cookies ne sont déposés sur vos terminaux qu’à condition que vous y consentiez, en continuant votre
-        navigation sur le Site Internet ou l’application mobile de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>. À tout moment, l’Utilisateur peut
-        néanmoins revenir sur son consentement à ce que <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> dépose ce type de cookies.</p>
+        navigation sur le Site Internet ou l’application mobile de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>. À tout moment, l’Utilisateur peut
+        néanmoins revenir sur son consentement à ce que <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> dépose ce type de cookies.</p>
 
     <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
 
@@ -403,18 +371,16 @@ include 'nav.php';
         est ouverte et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur. </p>
     <p>
         Le prestataire externe pourra éventuellement recueillir des informations sur les visiteurs du Site et d’autres
-        sites Internet grâce à ces balises, constituer des rapports sur l’activité du Site à l’attention de <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, et fournir d’autres services relatifs à
+        sites Internet grâce à ces balises, constituer des rapports sur l’activité du Site à l’attention de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a>, et fournir d’autres services relatifs à
         l’utilisation de celui-ci et d’Internet.</p>
     <p>
     </p>
     <h2>10. Droit applicable et attribution de juridiction.</h2>
     <p>
-        Tout litige en relation avec l’utilisation du site <a
-            href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> est soumis au droit français.
+        Tout litige en relation avec l’utilisation du site <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> est soumis au droit français.
         En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux
         compétents de Lille</p>
 
+</div>
 
-
-        <?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
