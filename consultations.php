@@ -10,8 +10,14 @@ include 'nav.php';
 <div class="container">
     <?php include 'connexion.php'; ?>
 
-    <h2> Module de visioconférence</h2>
-    <p>Ici je placerai un module de visioconférence issue du SDK de Zoom</p>
+    <h2>Bienvenue à votre consultation</h2>
+
+    <!-- Illustration temporaire en attendant l'intégration du module -->
+    <div class="row justify-content-center">
+        <div class="col-6 text-center module">
+            <i class="fa-solid fa-video"></i>
+        </div>
+    </div>
 </div>
 
 <?php include 'footer.php'; ?>

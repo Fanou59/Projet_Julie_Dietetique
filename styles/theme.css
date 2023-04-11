@@ -521,6 +521,21 @@ footer i {
     display: inline;
 }
 
+/* ************** CONSULTATION *************************** */
+
+/* temporaire en attendant l'intégration du module */
+.module {
+    height: 400px;
+    border-radius: 20px;
+    background: rgb(186, 186, 186);
+}
+
+.fa-solid {
+    line-height: 400px;
+    color: white;
+    font-size: 4rem;
+}
+
 /*************** Qui-suis je ? ******************************/
 #profil {
     border-radius: 50%;
