@@ -17,33 +17,33 @@ include 'nav.php';
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-3">
                     <label for="name">Nom :</label>
-                    <input class="form-control" id="name" name="name" type="text" required>
+                    <input class="form-control mt-3 mb-2" id="name" name="name" type="text" required>
                 </div>
                 <div class="col mb-3">
                     <label for="prenom">Prénom :</label>
-                    <input class="form-control" id="prenom" name="prenom" type="text" required>
+                    <input class="form-control mt-3 mb-2" id="prenom" name="prenom" type="text" required>
                 </div>
                 <div class="col mb-3">
                     <label for="email">Email :</label>
-                    <input class="form-control" id="email" name="email" type="email" required>
+                    <input class="form-control mt-3 mb-2" id="email" name="email" type="email" required>
                 </div>
                 <div class="col mb-3">
                     <label for="telephone">Téléphone :</label>
-                    <input class="form-control" id="telephone" name="telephone" type="tel" required>
+                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" required>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col mb-3">
                     <label for="objet">Objet :</label>
-                    <input class="form-control" id="objet" name="objet" type="text" required>
+                    <input class="form-control mt-3 mb-2" id="objet" name="objet" type="text" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col mb-3">
                     <div class="col mb-3">
                         <label for="message">Quel est votre message ?</label>
-                        <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+                        <textarea class="form-control mt-3 mb-2" name="message" id="message" rows="5"></textarea>
                     </div>
                 </div>
             </div>

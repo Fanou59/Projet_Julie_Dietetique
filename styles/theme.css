@@ -328,13 +328,6 @@ a:hover {
 
 }
 
-/******************* MAIN ***************************/
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 /* ********** SECTION CATALOGUE ****************** */
 
 .card,
@@ -422,25 +415,8 @@ main {
 }
 
 /************* FORMULAIRES ************************** */
-main {
-    display: flex;
-    justify-content: center;
-}
 
-
-/* disposition du bloc user en 2 colonnes */
-
-
-/* Uniformisation des marges en bas à 64px pour l'ensemble du formulaire */
-
-/* .submit__btn {
-    margin-bottom: 4rem;
-} */
-
-/* Uniformisation des marges hautes à 16px pour l'ensemble du formulaire */
-
-.submit__acceptrgpd,
-.form-select {
+.submit__acceptrgpd {
     margin-top: 1rem;
 }
 

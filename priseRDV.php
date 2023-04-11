@@ -16,27 +16,27 @@ include 'nav.php'; ?>
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-3">
                     <label for="name">Nom :</label>
-                    <input class="form-control" id="name" name="name" type="text" required>
+                    <input class="form-control mt-3 mb-2" id="name" name="name" type="text" required>
                 </div>
                 <div class="col mb-3">
                     <label for="prenom">Prénom :</label>
-                    <input class="form-control" id="prenom" name="prenom" type="text" required>
+                    <input class="form-control mt-3 mb-2" id="prenom" name="prenom" type="text" required>
                 </div>
                 <div class="col mb-3">
                     <label for="email">Email :</label>
-                    <input class="form-control" id="email" name="email" type="email" required>
+                    <input class="form-control mt-3 mb-2" id="email" name="email" type="email" required>
                 </div>
                 <div class="col mb-3">
                     <label for="telephone">Télephone :</label>
-                    <input class="form-control" id="telephone" name="telephone" type="tel" required>
+                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" required>
                 </div>
                 <div class="col mb-3">
                     <label for="age">Age :</label>
-                    <input class="form-control" id="age" name="age" type="number" required>
+                    <input class="form-control mt-3 mb-2" id="age" name="age" type="number" required>
                 </div>
                 <div class="col mb-3">
                     <label for="genre">Genre :</label>
-                    <select id="genre" class="form-select">
+                    <select id="genre" class="form-select mt-3 mb-2">
                         <option selected>Choisissez...</option>
                         <option value="homme">Homme</option>
                         <option value="femme">Femme</option>
@@ -50,7 +50,7 @@ include 'nav.php'; ?>
             <div class="row row-cols-1">
                 <div class="col mb-3">
                     <label for="activite">Quel est votre niveau d'activité ?</label>
-                    <select class="form-select" id="activite">
+                    <select class="form-select mt-3 mb-2" id="activite">
                         <option selected>Choisissez...</option>
                         <option value="sedentaire">Sédentaire</option>
                         <option value="moyenA">Moyennement actif</option>
@@ -60,7 +60,7 @@ include 'nav.php'; ?>
                 </div>
                 <div class="col mb-3">
                     <label for="modeAlimentaire">Quel est votre mode alimentaire ?</label>
-                    <select class="form-select" id="modeAlimentaire">
+                    <select class="form-select mt-3 mb-2" id="modeAlimentaire">
                         <option selected>Choisissez...</option>
                         <option value="equilibre">Equilibré</option>
                         <option value="flexitarien">Fléxitarien</option>
@@ -70,11 +70,11 @@ include 'nav.php'; ?>
                 </div>
                 <div class="col mb-3">
                     <label for="intolerence">Renseignez ici vos intolérences alimentaires :</label>
-                    <textarea class="form-control" name="intolerence" id="intolerence" rows="3"></textarea>
+                    <textarea class="form-control mt-3 mb-2" name="intolerence" id="intolerence" rows="3"></textarea>
                 </div>
                 <div class="col mb-3">
                     <label for="allergie">Renseigner ici vos allergies si vous en avez :</label>
-                    <textarea class="form-control" name="allergie" id="allergie" rows="3"></textarea>
+                    <textarea class="form-control mt-3 mb-2" name="allergie" id="allergie" rows="3"></textarea>
                 </div>
             </div>
 
