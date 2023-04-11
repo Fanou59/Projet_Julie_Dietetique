@@ -38,14 +38,15 @@ include 'nav.php';
             déjà
             existant est automatique. Ce cookie n'est utilisé qu'à des fins statistiques. De cette façon, les données
             suivantes
-            peuvent être collectées :</li>
-        <ul>
-            <li>le nombre de visiteurs uniques</li>
-            <li>la fréquence à laquelle les utilisateurs visitent le site</li>
-            <li>quelles pages les visiteurs consultent</li>
-            <li>combien de temps les utilisateurs consultent une page particulière</li>
-            <li>la page à partir de laquelle les visiteurs quittent le site</li>
-        </ul>
+            peuvent être collectées :
+            <ul>
+                <li>le nombre de visiteurs uniques</li>
+                <li>la fréquence à laquelle les utilisateurs visitent le site</li>
+                <li>quelles pages les visiteurs consultent</li>
+                <li>combien de temps les utilisateurs consultent une page particulière</li>
+                <li>la page à partir de laquelle les visiteurs quittent le site</li>
+            </ul>
+        </li>
         <li>Cookies de suivi : ils permettent d'analyser votre navigation, vos habitudes de consultation ou de
             consommation sur les sites du réseau, dans le but de vous proposer des publicités ciblées ou des services
             personnalisés.Le profil qui est établi en fonction de ces données n'est pas lié à votre nom, adresse,
