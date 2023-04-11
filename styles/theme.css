@@ -341,7 +341,7 @@ a:hover {
 
 }
 
-#price {
+.price {
     width: 100px;
     height: 100px;
     background-color: rgba(172, 146, 166, 0.4);

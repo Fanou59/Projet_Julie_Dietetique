@@ -15,13 +15,13 @@ include 'nav.php'; ?>
     <h2>Mes prestations</h2>
 
     <!-- CARD_catalogue de service -->
-    <section class="container">
+    <div class="container">
         <div class="row row-cols-1 mx-3 row-cols-md-4 row-cols-lg-3 justify-content-center ">
 
             <div class="col mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
+                        <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
                     </div>
                     <div class="card-body">
                         <div class="card-title text-center">Pack conseils efficaces</div>
@@ -38,7 +38,7 @@ include 'nav.php'; ?>
             <div class="col mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
+                        <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
                     </div>
                     <div class="card-body">
                         <div class="card-title text-center">Pack conseils efficaces</div>
@@ -55,7 +55,7 @@ include 'nav.php'; ?>
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <div id="price" class="d-flex justify-content-center align-items-center card-title mx-auto">35€</div>
+                        <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
                     </div>
                     <div class="card-body">
                         <div class="card-title text-center">Pack conseils efficaces</div>
@@ -70,7 +70,7 @@ include 'nav.php'; ?>
             </div>
         </div>
 
-    </section>
+    </div>
 
     <!--section pour insérer le testimonial, expérience et/ou avis client-->
     <section class="testimonial">
