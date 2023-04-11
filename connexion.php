@@ -8,7 +8,7 @@
             <form action="#">
                 <div class="my-4">
                     <label for="login" class="form-label">Identifiant</label>
-                    <input type="text" class="form-control text-center" id="login" aria-describedby="identifiant" placeholder="Entrez votre identifiant" required>
+                    <input type="text" class="form-control text-center" id="login" placeholder="Entrez votre identifiant" required>
 
                 </div>
                 <div class="my-4">
@@ -20,7 +20,7 @@
                 </div>
                 <div class="submit cnx">
                     <div class="submit__btn">
-                        <input type="submit" value="Connexion" id="connexion"></input>
+                        <input type="submit" value="Connexion" id="connexion">
                     </div>
                     <span class="miss" id="miss"></span>
                 </div>
