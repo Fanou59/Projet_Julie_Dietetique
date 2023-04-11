@@ -52,17 +52,13 @@ include 'nav.php';
                     <input type="checkbox" name="rgpd" id="rgpd">
                     <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.php">la
                                 charte de
-                                confidentialité</a></i>
+                                confidentialité</a></i></label>
                 </div>
                 <div class="submit__btn">
                     <input type="submit" value="Envoyer le formulaire">
                 </div>
             </div>
-    </div>
-
-
-    </form>
-
+        </form>
     </div>
 </main>
 <?php include 'footer.php'; ?>
