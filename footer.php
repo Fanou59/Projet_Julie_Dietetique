@@ -32,7 +32,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase">
-                        <a href="/mentions legales.php" class="text-white">Mentions légales</a>
+                        <a href="/mentions-legales.php" class="text-white">Mentions légales</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -40,7 +40,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase">
-                        <a href="/politique de cookies.php" class="text-white">Politique de cookies</a>
+                        <a href="/politique-de-cookies.php" class="text-white">Politique de cookies</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -49,21 +49,21 @@
         </section>
         <!-- Section: Links -->
 
-        <hr class="my-5" />
+        <hr class="my-5">
 
         <!-- Section: Text -->
-        <section class="mb-5">
+        <div class="mb-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <p>
                         "Un régime, c'est la courte période de privations qui précède une augmentation de poids."</p>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- Section: Text -->
 
         <!-- Section: Social -->
-        <section class="text-center mb-5">
+        <div class="text-center mb-5">
             <a href="" class="text-white me-4">
                 <i class="fab fa-facebook-f"></i>
             </a>
@@ -71,7 +71,7 @@
                 <i class="fab fa-instagram"></i>
             </a>
 
-        </section>
+        </div>
         <!-- Section: Social -->
     </div>
     <!-- Grid container -->
