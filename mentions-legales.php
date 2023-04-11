@@ -42,7 +42,7 @@ include 'nav.php';
         <strong>Délégué à la protection des données</strong> : Guery Julie – ju.guery@gmail.com<br>
     </p>
 
-    <div ng-bind-html="linkHTML">
+    <div>
         <p>Ces mentions légales RGPD sont issues du <a href="https://fr.orson.io/1371/generateur-mentions-legales" title="générateur de mentions légales RGPD d">générateur de mentions légales RGPD d'Orson.io</a></p>
     </div>
 
@@ -256,7 +256,7 @@ include 'nav.php';
         personnes susceptibles d’avoir accès aux données des Utilisateurs de <a href="https://www.julie-guery.fr">https://www.julie-guery.fr</a> sont principalement les agents de notre
         service client.</p>
 
-    <div ng-bind-html="rgpdHTML"></div>
+
 
 
     <h2>8. Notification d’incident</h2>
