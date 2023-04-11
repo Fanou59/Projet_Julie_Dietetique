@@ -177,7 +177,6 @@ ul {
     --button-colorHover: #fff26a;
     --form-input: #D0DBDD;
 
-
 }
 
 * {
@@ -544,7 +543,7 @@ footer a {
 
 /* ************* MEDIA SCREEN ******************* */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .header__title {
         font-size: 2rem;
         line-height: 2rem;
@@ -580,6 +579,10 @@ footer a {
 
     .testimonial blockquote {
         font-size: 1rem;
+    }
+
+    .connexion-container {
+        width: 80%;
     }
 
 

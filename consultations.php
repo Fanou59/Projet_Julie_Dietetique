@@ -7,8 +7,9 @@ include 'nav.php';
 <header class="header__page">
     <h1 class="card-title">CONSULTATIONS</h1>
 </header>
+<?php include 'connexion.php'; ?>
 <div class="container">
-    <?php include 'connexion.php'; ?>
+
 
     <h2>Bienvenue à votre consultation</h2>
 
