@@ -8,6 +8,8 @@ include 'nav.php';
     <h1 class="card-title">CONSULTATIONS</h1>
 </header>
 <div class="container">
+    <?php include 'connexion.php'; ?>
+
     <h2> Module de visioconférence</h2>
     <p>Ici je placerai un module de visioconférence issue du SDK de Zoom</p>
 </div>
