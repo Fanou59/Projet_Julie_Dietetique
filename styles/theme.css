@@ -456,6 +456,13 @@ footer i {
     align-items: center;
 }
 
+/* ************** blog Article *******************************/
+#date,
+#share {
+    color: var(--primary-color);
+    opacity: 0.8;
+}
+
 /* ************* MODAL CNX ********************************* */
 .ok {
     display: none;
@@ -505,7 +512,7 @@ footer i {
     background: rgb(186, 186, 186);
 }
 
-.fa-solid {
+#video {
     line-height: 400px;
     color: white;
     font-size: 4rem;
