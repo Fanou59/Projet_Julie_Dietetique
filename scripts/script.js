@@ -22,4 +22,3 @@ function action(evt){
 
 //Ecoute à l'évenement click sur le bouton connexion et appelle de la fonction action
 connexion.addEventListener('click',action,false);
-
