@@ -73,7 +73,7 @@ include 'nav.php'; ?>
     </div>
 
     <!--section pour insérer le testimonial, expérience et/ou avis client-->
-    <section class="testimonial">
+    <div class="testimonial">
 
         <blockquote>Très bon coach et diététicienne ! Bienveillante et avec pleins de bons conseils pour
             retrouver une
@@ -82,7 +82,7 @@ include 'nav.php'; ?>
         <img src="images/Photo_cliente.jpg" alt="photo d'alice patiente du cabinet">
         <p>Judith Gardner</p>
 
-    </section>
+    </div>
 
     <section>
         <!--Ici je mettrais le slider avec les articles de blog pour la version mobile et en version desktop les 3 dernièrs articles-->
