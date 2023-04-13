@@ -1,5 +1,5 @@
 <div class="container mt-4 d-md-none">
-    <div id="carouselBlog" class="carousel slide ">
+    <div id="carouselBlog" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
 
@@ -44,14 +44,14 @@
 
             </div>
         </div>
-        <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselBlog" data-bs-slide="prev">
+        <!-- <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselBlog" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselBlog" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-        </button>
+        </button> -->
     </div>
 
 </div>

@@ -1,5 +1,4 @@
 <?php
-$titrePage = 'Prenons un RDV';
 include 'header.php';
 include 'nav.php'; ?>
 
