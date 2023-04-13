@@ -10,7 +10,7 @@ include 'nav.php';
 <?php include 'connexion.php'; ?>
 <div class="container">
 
-
+    <div id="personalise"></div>
     <h2>Bienvenue à votre consultation</h2>
 
     <!-- Illustration temporaire en attendant l'intégration du module -->
