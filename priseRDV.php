@@ -11,7 +11,7 @@ include 'nav.php'; ?>
     <!-- Container pour le formulaire -->
     <div class="container">
         <h2 class="form__title">Merci de remplir le formulaire suivant</h2>
-        <form action="#" method="post">
+        <form action="/agenda.php" method="post">
             <!-- Partie user-info sur 2 colonnes en desktop et 1 colonnes en mobile -->
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-3">
@@ -157,7 +157,7 @@ include 'nav.php'; ?>
 </main>
 
 <!-- Section qui doit contenir le calendrier de prise de rdv -->
-<section>
+<!-- <section>
     <div class="container">
         <h2>Choisissez une date de rdv dans le calendrier ci-dessous</h2>
         <p>
@@ -169,5 +169,5 @@ include 'nav.php'; ?>
                 par mois)</i>
         </p>
     </div>
-</section>
+</section> -->
 <?php include 'footer.php'; ?>
