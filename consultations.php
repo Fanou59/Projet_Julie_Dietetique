@@ -15,7 +15,7 @@ include 'nav.php';
 
     <!-- Illustration temporaire en attendant l'intégration du module -->
     <div class="row  justify-content-center">
-        <div class="col-md-6 text-center module">
+        <div class="col-10 col-md-6 text-center module">
             <i id="video" class="fa-solid fa-video"></i>
         </div>
     </div>
