@@ -413,6 +413,16 @@ a:hover {
     margin-top: 2rem;
 }
 
+h6>i {
+    margin-right: 0.5rem;
+}
+
+#date,
+#share {
+    color: var(--primary-color);
+    opacity: 0.8;
+}
+
 /************* FORMULAIRES ************************** */
 
 .submit__acceptrgpd {
@@ -456,12 +466,6 @@ footer i {
     align-items: center;
 }
 
-/* ************** blog Article *******************************/
-#date,
-#share {
-    color: var(--primary-color);
-    opacity: 0.8;
-}
 
 /* ************* MODAL CNX ********************************* */
 .ok {
@@ -568,10 +572,6 @@ footer a {
 
     .header__text a {
         display: none;
-    }
-
-    .card-title {
-        text-align: center;
     }
 
     .header__page p {

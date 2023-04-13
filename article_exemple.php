@@ -6,7 +6,7 @@ include 'nav.php'; ?>
 
 <div class="container">
     <div class="row row-cols-2 text-center mt-3">
-        <span class="text-start" id="date">04 avril 2023 - 2min de lecture</span>
+        <span class="text-start" id="date">Ecrit le 04 avril 2023 - 2min de lecture</span>
         <!-- il faudra mettre une pop-up de partage au click-->
 
         <a class="text-end" href=""><i id="share" class="fa-solid fa-share"></i></a>
