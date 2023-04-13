@@ -14,8 +14,8 @@ include 'nav.php';
     <h3 class="text-center">Je vous souhaite la bienvenue à votre consultation.</h3>
 
     <!-- Illustration temporaire en attendant l'intégration du module -->
-    <div class="row justify-content-center">
-        <div class="col-6 text-center module">
+    <div class="row  justify-content-center">
+        <div class="col-md-6 text-center module">
             <i id="video" class="fa-solid fa-video"></i>
         </div>
     </div>
