@@ -7,7 +7,7 @@ include 'nav.php';
 
 
 <header class="header__page">
-    <h1 class="card-title">CONTACTEZ-MOI</h1>
+    <h1>CONTACTEZ-MOI</h1>
     <p>Petit texte de bienvenue dans le header sous le h1</p>
 </header>
 <main> <!--Ici on mettra le formulaire de contact-->

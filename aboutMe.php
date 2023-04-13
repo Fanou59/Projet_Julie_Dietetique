@@ -5,7 +5,7 @@ include 'header.php';
 include 'nav.php';
 ?>
 <header class="header__page">
-    <h1 class="card-title">Qui suis-je ?</h1>
+    <h1>Qui suis-je ?</h1>
 </header>
 <div class="container mt-4">
     <div class="row">

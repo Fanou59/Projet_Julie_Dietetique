@@ -5,7 +5,7 @@ include 'header.php';
 include 'nav.php';
 ?>
 <header class="header__page">
-    <h1 class="card-title">CONSULTATIONS</h1>
+    <h1>CONSULTATIONS</h1>
 </header>
 <?php include 'connexion.php'; ?>
 <div class="container">
