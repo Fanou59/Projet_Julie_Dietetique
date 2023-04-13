@@ -552,8 +552,14 @@ footer a {
 }
 
 /* ************* Slider *******************/
+.carousel-indicators {
+    bottom: -45px;
 
+}
 
+.carousel-indicators [data-bs-target] {
+    background-color: var(--primary-color);
+}
 
 
 /* ************* MEDIA SCREEN ******************* */
