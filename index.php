@@ -16,7 +16,7 @@ include 'nav.php'; ?>
 
     <!-- CARD_catalogue de service -->
     <div class="container">
-        <div class="row row-cols-1 mx-3 row-cols-md-4 row-cols-lg-3 justify-content-center ">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
 
             <div class="col mb-4">
                 <div class="card">
@@ -52,7 +52,7 @@ include 'nav.php'; ?>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col mb-4">
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
@@ -79,7 +79,7 @@ include 'nav.php'; ?>
             retrouver une
             alimentation saine, gourmande et adaptée à mon sport 🙂. Je recommande !</blockquote>
         <!--La photo sera placée dans un petit cercle-->
-        <img src="images/Photo_cliente.jpg" alt="photo d'alice patiente du cabinet">
+        <img id="img-testi" src="images/Photo_cliente.jpg" alt="photo d'alice patiente du cabinet">
         <p>Judith Gardner</p>
 
     </div>
@@ -87,7 +87,9 @@ include 'nav.php'; ?>
     <section>
         <!--Ici je mettrais le slider avec les articles de blog pour la version mobile et en version desktop les 3 dernièrs articles-->
         <h2>Nos derniers articles</h2>
-        <div class="container mt-4">
+        <?php include 'slider_mobile.php' ?> <!--Slider pour le mobile, n'apparait pas en version desktop -->
+        <!-- Container avec les 3 derniers article, disparait en version mobile -->
+        <div class="container mt-4 d-none d-md-block">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card pb-2">
