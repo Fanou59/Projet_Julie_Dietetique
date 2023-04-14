@@ -4,7 +4,9 @@ include 'header.php';
 include 'nav.php'; ?>
 
 <header class="header__page">
-    <h1>Work in progress</h1>
+    <div class="bg">
+        <h1>Work in progress</h1>
+    </div>
 </header>
 <main>
     <!-- Classe 'container' pour installer la grille bootstrap -->

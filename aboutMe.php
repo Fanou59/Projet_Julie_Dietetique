@@ -5,7 +5,9 @@ include 'header.php';
 include 'nav.php';
 ?>
 <header class="header__page">
-    <h1>Qui suis-je ?</h1>
+    <div class="bg">
+        <h1>Qui suis-je ?</h1>
+    </div>
 </header>
 <div class="container mt-4">
     <div class="row">

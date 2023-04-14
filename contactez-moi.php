@@ -7,8 +7,9 @@ include 'nav.php';
 
 
 <header class="header__page">
-    <h1>CONTACTEZ-MOI</h1>
-    <p>Petit texte de bienvenue dans le header sous le h1</p>
+    <div class="bg">
+        <h1>CONTACTEZ-MOI</h1>
+    </div>
 </header>
 <main> <!--Ici on mettra le formulaire de contact-->
     <div class="container">

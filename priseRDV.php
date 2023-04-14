@@ -4,8 +4,9 @@ include 'header.php';
 include 'nav.php'; ?>
 
 <header class="header__page">
-    <h1>Prenez un RDV</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. ?</p>
+    <div class="bg">
+        <h1>Prenez un RDV</h1>
+    </div>
 </header>
 <main>
     <!-- Container pour le formulaire -->

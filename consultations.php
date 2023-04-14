@@ -5,7 +5,9 @@ include 'header.php';
 include 'nav.php';
 ?>
 <header class="header__page">
-    <h1>CONSULTATIONS</h1>
+    <div class="bg">
+        <h1>CONSULTATIONS</h1>
+    </div>
 </header>
 <?php include 'connexion.php'; ?>
 <div class="container">
