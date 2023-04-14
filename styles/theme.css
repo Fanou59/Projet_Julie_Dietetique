@@ -227,8 +227,13 @@ h3 {
 }
 
 h3,
-h4 {
+h4,
+.card-title {
     font-size: 1.5rem;
+}
+
+.card-title {
+    text-transform: uppercase;
 }
 
 p,
@@ -582,8 +587,9 @@ footer a {
     }
 
     h3,
-    h4 {
-        font-size: 1.12rem;
+    h4,
+    .card-title {
+        font-size: 1.13rem;
     }
 
     .header__title {
@@ -594,6 +600,10 @@ footer a {
     .header__accueil {
         background-image: url(BG_header_mobile.jpg);
         background-position: center;
+        height: 300px;
+    }
+
+    .header__page {
         height: 300px;
     }
 
