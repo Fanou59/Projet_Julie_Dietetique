@@ -96,7 +96,7 @@ include 'nav.php'; ?>
                         <img src="/images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
 
                         <div class="card-body">
-                            <div class="card-title">Test titre card blog</div>
+                            <div class="card-title">La ciboulette, c'est super chouette !</div>
                             <h6 class="card-subtitle mb-2 text-body-secondary"><i class="fa-regular fa-clock"></i>Date</h6>
                             <p class="card-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi, nesciunt provident quisquam nihil natus beatae dignissimos necessitatibus vero! Et repellendus magnam voluptatibus dignissimos earum quasi atque optio deleniti? Quod.</p>
                             <a href="/article_exemple.php" class="card-link">Lien vers l'article</a>
@@ -108,7 +108,7 @@ include 'nav.php'; ?>
                         <img src="/images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
 
                         <div class="card-body">
-                            <div class="card-title">Test titre card blog</div>
+                            <div class="card-title">Appelle ton avocat !</div>
                             <h6 class="card-subtitle mb-2 text-body-secondary"><i class="fa-regular fa-clock"></i>Date</h6>
                             <p class="card-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi, nesciunt provident quisquam nihil natus beatae dignissimos necessitatibus vero! Et repellendus magnam voluptatibus dignissimos earum quasi atque optio deleniti? Quod.</p>
                             <a href="/article_exemple.php" class="card-link">Lien vers l'article</a>
@@ -120,7 +120,7 @@ include 'nav.php'; ?>
                         <img src="/images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
 
                         <div class="card-body">
-                            <div class="card-title">Test titre card blog</div>
+                            <div class="card-title">Amène ta fraise !</div>
                             <h6 class="card-subtitle mb-2 text-body-secondary"><i class="fa-regular fa-clock"></i>Date</h6>
                             <p class="card-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur excepturi, nesciunt provident quisquam nihil natus beatae dignissimos necessitatibus vero! Et repellendus magnam voluptatibus dignissimos earum quasi atque optio deleniti? Quod.</p>
                             <a href="/article_exemple.php" class="card-link">Lien vers l'article</a>

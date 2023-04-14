@@ -234,6 +234,8 @@ h4,
 
 .card-title {
     text-transform: uppercase;
+    line-height: 1em;
+    font-size: 1.125rem;
 }
 
 p,
