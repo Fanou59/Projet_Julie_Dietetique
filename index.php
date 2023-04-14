@@ -24,7 +24,7 @@ include 'nav.php'; ?>
                         <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
                     </div>
                     <div class="card-body">
-                        <div class="card-title text-center">Pack conseils efficaces</div>
+                        <h3 class="card-title text-center">Pack conseils efficaces</h3>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Liste 1</li>
                             <li class="list-group-item">Liste 2</li>
@@ -41,7 +41,7 @@ include 'nav.php'; ?>
                         <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
                     </div>
                     <div class="card-body">
-                        <div class="card-title text-center">Pack conseils efficaces</div>
+                        <h3 class="card-title text-center">Pack conseils efficaces</h3>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Liste 1</li>
                             <li class="list-group-item">Liste 2</li>
@@ -58,7 +58,7 @@ include 'nav.php'; ?>
                         <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
                     </div>
                     <div class="card-body">
-                        <div class="card-title text-center">Pack conseils efficaces</div>
+                        <h3 class="card-title text-center">Pack conseils efficaces</h3>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Liste 1</li>
                             <li class="list-group-item">Liste 2</li>
