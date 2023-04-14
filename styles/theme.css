@@ -562,6 +562,13 @@ footer i {
 #summary {
     background-color: #eef;
     border-radius: 3%;
+    padding: 10px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 40px;
+
 }
 
 /************** FOOTER *************************** */
