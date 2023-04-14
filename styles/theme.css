@@ -326,7 +326,11 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-color-10);
+    /* background-color: var(--primary-color-10); */
+    background-image: url(/images/Fond_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
     height: 420px;
 }
 
@@ -605,6 +609,10 @@ footer a {
 
     .header__page {
         height: 300px;
+        background-image: url(/images/Fond_1_Mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
     }
 
     .header__text a {
