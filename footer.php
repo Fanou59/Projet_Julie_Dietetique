@@ -30,6 +30,11 @@
                         <a href="/politique-de-cookies.php" class="text-white">Politique de cookies</a>
                     </h6>
                 </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase">
+                        <a href="javascript:openAxeptioCookies()" class="text-white">Gérer vos cookies</a>
+                    </h6>
+                </div>
 
             </div>
 
