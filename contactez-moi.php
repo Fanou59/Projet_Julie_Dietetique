@@ -51,7 +51,7 @@ include 'nav.php';
             <div class="submit">
                 <div class="submit__acceptrgpd">
                     <input type="checkbox" name="rgpd" id="rgpd">
-                    <label for="rgpd"><i>J'ai lu et j'accepte <a href="charteRGPD.php">la
+                    <label for="rgpd"><i>J'ai lu et j'accepte <a href="/mentions-legales.php">la
                                 charte de
                                 confidentialité</a></i></label>
                 </div>
