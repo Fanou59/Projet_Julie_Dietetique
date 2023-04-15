@@ -30,11 +30,12 @@
                         <a href="/politique-de-cookies.php" class="text-white">Politique de cookies</a>
                     </h6>
                 </div>
-                <div class="col-md-2">
+                <!-- Ajout du lien pour gérer les cookies -->
+                <!-- <div class="col-md-2">
                     <h6 class="text-uppercase">
                         <a href="javascript:openAxeptioCookies()" class="text-white">Gérer vos cookies</a>
                     </h6>
-                </div>
+                </div> -->
 
             </div>
 
@@ -74,7 +75,8 @@
 <script src="/scripts/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-<script>
+<!-- Script pour la boite de cookies quand cela sera OK -->
+<!-- <script>
     window.axeptioSettings = {
         clientId: "643a5729e332947d7aa1a32f",
         cookiesVersion: "laboiteaidee-fr",
@@ -87,7 +89,7 @@
         e.src = "//static.axept.io/sdk.js";
         t.parentNode.insertBefore(e, t);
     })(document, "script");
-</script>
+</script> -->
 
 </body>
 
