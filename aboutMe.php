@@ -11,11 +11,9 @@ include 'nav.php';
 </header>
 <div class="container mt-4">
     <div class="row g-5">
-        <div id="summary" class="col-12 col-lg-3 mb-4 order-1 order-lg-0">
+        <div id="summary" class="col-12 col-lg-3 mb-4">
             <img id="profil" src="/images/jake-nackos-IF9TK5Uy-KI-unsplash-2.jpg" alt="Photo profil" class="img-thumbnail">
-            <p>
-                En résumé...
-            </p>
+
             <ul>
                 <li>Je suis coach sportive : j’accompagne toutes les personnes qui souhaitent reprendre une activité physique. </li>
                 <li>Je suis diététicienne : j’accompagne toutes les personnes qui souhaitent apprendre à mieux manger.</li>
@@ -23,7 +21,7 @@ include 'nav.php';
                 <li>Je suis une rêveuse déterminée, sensible et cyclique passionnée par la vie ❤️ (et super positive mais pas tout le temps… je suis une femme 💪)</li>
             </ul>
         </div>
-        <div class="col-12 col-lg-9 mb-4 order-0 order-lg-1">
+        <div class="col-12 col-lg-9 mb-4">
             <h3>Je suis Julie ☀️ </h3>
 
             <p> Mariée à un sportif saxophoniste à tendance hyperactive. Il est passionné, doté de beaucoup d’humour et de force mentale incroyable ❤️</p>
