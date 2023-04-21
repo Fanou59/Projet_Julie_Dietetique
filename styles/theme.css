@@ -597,11 +597,18 @@ footer a {
     font-weight: bold;
 }
 
-#copy {
+.copyright {
+    display: flex;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
     font-size: 0.875rem;
+}
 
+.copyright a,
+.copyright p,
+.copyright div {
+    margin-left: 0.5rem;
 }
 
 
@@ -669,6 +676,14 @@ footer a {
 
     .connexion-container {
         width: 80%;
+    }
+
+    .copyright {
+        flex-direction: column;
+    }
+
+    .copyright div {
+        display: none;
     }
 
 

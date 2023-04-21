@@ -67,10 +67,11 @@
     </div>
 
     <!-- Copyright -->
-    <div id="copy" class="d-flex justify-content-center">
-        <p>© 2023 Copyright:</p>
-        <a class="ps-1" href="/contactez-moi.php">Julie Guery, diéticienne et nutrionniste</a>
-        <p class="ps-1">| numéro adélie : 00 00 00 00</p>
+    <div class="copyright">
+        <p>© 2023 Copyright</p>
+        <a href="/contactez-moi.php">Julie Guery, diéticienne et nutrionniste</a>
+        <div>|</div>
+        <p>numéro adélie : 00 00 00 00</p>
     </div>
 </footer>
 <script src="/scripts/script.js"></script>
