@@ -312,6 +312,7 @@ a:hover {
     padding: 12px 24px;
     border: none;
     font-size: 100%;
+    transition: all 0.5s ease-out;
 }
 
 .navbar-brand:hover,
@@ -319,6 +320,8 @@ a:hover {
 .card-link:hover {
     background-color: var(--button-colorHover);
     color: var(--primary-color);
+    text-decoration: none;
+
 
 }
 
