@@ -147,7 +147,7 @@ include 'nav.php'; ?>
                     <input type="checkbox" name="rgpd" id="rgpd" required>
                     <label for="rgpd"><i>J'ai lu et j'accepte <a href="/mentions-legales.php">la
                                 charte de
-                                confidentialité</a></i>
+                                confidentialité</a></i></label>
                 </div>
                 <div class="submit__btn">
                     <input type="submit" value="Envoyer le formulaire">
