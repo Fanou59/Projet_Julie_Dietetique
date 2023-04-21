@@ -689,5 +689,23 @@ footer a {
         display: none;
     }
 
+    .submit {
+        align-items: center;
+    }
+
+    .submit__acceptrgpd {
+        display: flex;
+        justify-content: center;
+        font-size: 0.875rem;
+    }
+
+    .submit__acceptrgpd label {
+        text-align: center;
+    }
+
+    .submit__acceptrgpd input {
+        margin-right: 1rem;
+    }
+
 
 }
