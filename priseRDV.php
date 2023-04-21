@@ -16,13 +16,15 @@ include 'nav.php'; ?>
             <!-- Partie user-info sur 2 colonnes en desktop et 1 colonnes en mobile -->
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-3">
-                    <label for="name">Nom :</label>
-                    <input class="form-control mt-3 mb-2" id="name" name="name" type="text" required>
-                </div>
-                <div class="col mb-3">
                     <label for="prenom">Prénom :</label>
                     <input class="form-control mt-3 mb-2" id="prenom" name="prenom" type="text" required>
                 </div>
+
+                <div class="col mb-3">
+                    <label for="name">Nom :</label>
+                    <input class="form-control mt-3 mb-2" id="name" name="name" type="text" required>
+                </div>
+
                 <div class="col mb-3">
                     <label for="email">Email :</label>
                     <input class="form-control mt-3 mb-2" id="email" name="email" type="email" required>
@@ -70,11 +72,11 @@ include 'nav.php'; ?>
                     </select>
                 </div>
                 <div class="col mb-3">
-                    <label for="intolerence">Renseignez ici vos intolérences alimentaires :</label>
+                    <label for="intolerence">Avez-vous des intolérences alimentaires ? :</label>
                     <textarea class="form-control mt-3 mb-2" name="intolerence" id="intolerence" rows="3"></textarea>
                 </div>
                 <div class="col mb-3">
-                    <label for="allergie">Renseigner ici vos allergies si vous en avez :</label>
+                    <label for="allergie">Avez-vous des allergies ? :</label>
                     <textarea class="form-control mt-3 mb-2" name="allergie" id="allergie" rows="3"></textarea>
                 </div>
             </div>
