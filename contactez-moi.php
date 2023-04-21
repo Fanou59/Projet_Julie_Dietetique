@@ -32,7 +32,7 @@ include 'nav.php';
                 <!-- on mettra un format automatique en JS ou PHP par la suite -->
                 <div class="col mb-3">
                     <label for="telephone">Téléphone (format 00 00 00 00 00) :</label>
-                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" placeholder="00 00 00 00 00" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required>
+                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" required>
                 </div>
             </div>
 
