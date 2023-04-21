@@ -28,8 +28,8 @@ include 'nav.php'; ?>
                     <input class="form-control mt-3 mb-2" id="email" name="email" type="email" required>
                 </div>
                 <div class="col mb-3">
-                    <label for="telephone">Télephone :</label>
-                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" required>
+                    <label for="telephone">Télephone (format 00 00 00 00 00):</label>
+                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" placeholder="00 00 00 00 00" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required>
                 </div>
                 <div class="col mb-3">
                     <label for="age">Age :</label>
@@ -142,7 +142,7 @@ include 'nav.php'; ?>
             <!-- Modifier les class de submit -->
             <div class="submit">
                 <div class="submit__acceptrgpd">
-                    <input type="checkbox" name="rgpd" id="rgpd">
+                    <input type="checkbox" name="rgpd" id="rgpd" required>
                     <label for="rgpd"><i>J'ai lu et j'accepte <a href="/mentions-legales.php">la
                                 charte de
                                 confidentialité</a></i>

@@ -17,20 +17,22 @@ include 'nav.php';
         <form action="#" method="post">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-3">
-                    <label for="name">Nom :</label>
-                    <input class="form-control mt-3 mb-2" id="name" name="name" type="text" required>
-                </div>
-                <div class="col mb-3">
                     <label for="prenom">Prénom :</label>
                     <input class="form-control mt-3 mb-2" id="prenom" name="prenom" type="text" required>
                 </div>
                 <div class="col mb-3">
+                    <label for="name">Nom :</label>
+                    <input class="form-control mt-3 mb-2" id="name" name="name" type="text" required>
+                </div>
+
+                <div class="col mb-3">
                     <label for="email">Email :</label>
                     <input class="form-control mt-3 mb-2" id="email" name="email" type="email" required>
                 </div>
+                <!-- on mettra un format automatique en JS ou PHP par la suite -->
                 <div class="col mb-3">
-                    <label for="telephone">Téléphone :</label>
-                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" required>
+                    <label for="telephone">Téléphone (format 00 00 00 00 00) :</label>
+                    <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" placeholder="00 00 00 00 00" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required>
                 </div>
             </div>
 
@@ -50,7 +52,7 @@ include 'nav.php';
             </div>
             <div class="submit">
                 <div class="submit__acceptrgpd">
-                    <input type="checkbox" name="rgpd" id="rgpd">
+                    <input type="checkbox" name="rgpd" id="rgpd" required>
                     <label for="rgpd"><i>J'ai lu et j'accepte <a href="/mentions-legales.php">la
                                 charte de
                                 confidentialité</a></i></label>
