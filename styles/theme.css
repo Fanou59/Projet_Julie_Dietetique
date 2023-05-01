@@ -276,7 +276,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     /* background: linear-gradient(to left, transparent, white), url(/images/BG_header.jpeg); */
-    background-image: url(/images/BG_header.jpeg);
+    background-image: url(images/BG_header.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
