@@ -12,7 +12,7 @@ include 'nav.php';
 <div class="container mt-4">
     <div class="row g-5">
         <div id="summary" class="col-12 col-lg-3 mb-4">
-            <img id="profil" src="/images/jake-nackos-IF9TK5Uy-KI-unsplash-2.jpg" alt="Photo profil" class="img-thumbnail">
+            <img id="profil" src="./images/jake-nackos-IF9TK5Uy-KI-unsplash-2.jpg" alt="Photo profil" class="img-thumbnail">
 
             <ul>
                 <li>Je suis coach sportive : j’accompagne toutes les personnes qui souhaitent reprendre une activité physique. </li>

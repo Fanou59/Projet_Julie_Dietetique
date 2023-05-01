@@ -93,7 +93,7 @@ include 'nav.php'; ?>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card pb-2">
-                        <img src="/images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
+                        <img src="./images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
 
                         <div class="card-body">
                             <div class="card-title">La ciboulette, c'est super chouette !</div>
@@ -105,7 +105,7 @@ include 'nav.php'; ?>
                 </div>
                 <div class="col">
                     <div class="card pb-2">
-                        <img src="/images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
+                        <img src="./images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
 
                         <div class="card-body">
                             <div class="card-title">Appelle ton avocat !</div>
@@ -117,7 +117,7 @@ include 'nav.php'; ?>
                 </div>
                 <div class="col">
                     <div class="card pb-2">
-                        <img src="/images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
+                        <img src="./images/img_blog.jpg" alt="des oeufs sur le plat" class="card-img-top">
 
                         <div class="card-body">
                             <div class="card-title">Amène ta fraise !</div>

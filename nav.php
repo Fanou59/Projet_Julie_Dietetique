@@ -11,27 +11,27 @@
                 <li class="nav-item">
                     <a class="<?php if ($page == 'accueil') {
                                     echo 'nav-link active';
-                                } else echo 'nav-link'; ?>" aria-current="page" href="/index.php">Accueil</a>
+                                } else echo 'nav-link'; ?>" aria-current="page" href="index.php">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="<?php if ($page == 'blog') {
                                     echo 'nav-link active';
-                                } else echo 'nav-link'; ?>" href="/blog.php">Blog</a>
+                                } else echo 'nav-link'; ?>" href="blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="<?php if ($page == 'qui') {
                                     echo 'nav-link active';
-                                } else echo 'nav-link'; ?>" href="/aboutMe.php">Qui suis-je ?</a>
+                                } else echo 'nav-link'; ?>" href="aboutMe.php">Qui suis-je ?</a>
                 </li>
                 <li class="nav-item">
                     <a class="<?php if ($page == 'consultation') {
                                     echo 'nav-link active';
-                                } else echo 'nav-link'; ?>" href="/consultations.php">Consultations</a>
+                                } else echo 'nav-link'; ?>" href="consultations.php">Consultations</a>
                 </li>
                 <li class="nav-item">
                     <a class="<?php if ($page == 'contact') {
                                     echo 'nav-link active';
-                                } else echo 'nav-link'; ?>" href="/contactez-moi.php">Contactez-moi</a>
+                                } else echo 'nav-link'; ?>" href="contactez-moi.php">Contactez-moi</a>
                 </li>
             </ul>
         </div>
