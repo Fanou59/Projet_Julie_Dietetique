@@ -1,3 +1,8 @@
+// formattage automatique du champ téléphone
+var cleave = new Cleave('#telephone',{
+    phone: true,
+    phoneRegionCode: 'FR'
+});
 //fonction fléchée pour récupérer et cibler l'ID désiré
 $=(id)=>document.getElementById(id);
 
@@ -25,3 +30,6 @@ function action(evt){
 
 //Ecoute à l'évenement click sur le bouton connexion et appelle de la fonction action
 connexion.addEventListener('click',action,false);
+
+
+
