@@ -85,7 +85,7 @@ include 'nav.php'; ?>
     </div>
 
     <section>
-        <!--Ici je mettrais le slider avec les articles de blog pour la version mobile et en version desktop les 3 dernièrs articles-->
+        <!--Slider avec les articles de blog pour la version mobile et en version desktop les 3 dernièrs articles-->
         <h2>Nos derniers articles</h2>
         <?php include 'slider_mobile.php' ?> <!--Slider pour le mobile, n'apparait pas en version desktop -->
         <!-- Container avec les 3 derniers article, disparait en version mobile -->

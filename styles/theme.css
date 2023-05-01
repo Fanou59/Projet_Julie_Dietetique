@@ -275,6 +275,7 @@ a:hover {
 .header__accueil {
     display: flex;
     flex-direction: column;
+    /* background: linear-gradient(to left, transparent, white), url(/images/BG_header.jpeg); */
     background-image: url(/images/BG_header.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -295,6 +296,7 @@ a:hover {
     font-size: 5.5rem;
     line-height: 5.5rem;
     text-align: left;
+    /* color: var(--primary-color); */
 
 }
 
@@ -652,6 +654,8 @@ footer a {
 
     .header__accueil {
         background-image: url(/images/BG_header_mobile.jpg);
+        /* background: linear-gradient(to left, transparent, white), url(/images/BG_header_mobile.jpg); */
+
         background-position: center;
         height: 300px;
     }
