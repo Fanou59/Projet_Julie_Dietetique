@@ -74,6 +74,7 @@
         <p>numéro adélie : 00 00 00 00</p>
     </div>
 </footer>
+
 <script src="./scripts/cleave.js"></script>
 <script src="./scripts/cleave-phone.fr.js"></script>
 <script src="./scripts/script.js"></script>
