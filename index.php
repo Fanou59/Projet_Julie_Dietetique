@@ -7,7 +7,7 @@ include 'nav.php'; ?>
 <header class="header__accueil">
     <div class="header__text">
         <h1 class="header__title">T'es serré <br>comme <br>une sardine ?</h1>
-        <a class="navbar-brand" href="/priseRDV.php">Prenez un RDV</a>
+        <a class="navbar-brand" href="priseRDV.php">Prenez un RDV</a>
 
     </div>
 </header>

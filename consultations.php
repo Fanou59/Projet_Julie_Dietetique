@@ -22,5 +22,6 @@ include 'nav.php';
         </div>
     </div>
 </div>
+<script src="./scripts/script.js"></script>
 
 <?php include 'footer.php'; ?>

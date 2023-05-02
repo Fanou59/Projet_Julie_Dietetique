@@ -24,14 +24,11 @@ function action(evt){
 }
 
 
+
+
+
+
 //Ecoute à l'évenement click sur le bouton connexion et appelle de la fonction action
 connexion.addEventListener('click',action,false);
-
-//J'ai un pb pour l'instant :(
-//formattage automatique du champ téléphone
-// var cleave = new Cleave('#telephone',{
-//     phone: true,
-//     phoneRegionCode: 'FR'
-// });
 
 

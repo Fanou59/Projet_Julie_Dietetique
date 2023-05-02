@@ -64,4 +64,7 @@ include 'nav.php';
         </form>
     </div>
 </main>
+<script src="./scripts/cleave.js"></script>
+<script src="./scripts/cleave-phone.fr.js"></script>
+<script src="./scripts/telephone.js"></script>i
 <?php include 'footer.php'; ?>
