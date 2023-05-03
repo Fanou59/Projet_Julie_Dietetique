@@ -6,12 +6,18 @@ include 'nav.php'; ?>
 <!--header de l'accueil avec une image BG + 1 titre + le même bouton que nav-->
 <header class="header__accueil">
     <div class="header__text">
-        <h1 class="header__title">T'es serré <br>comme <br>une sardine ?</h1>
+        <h1 class="header__title">Mange et respire !</h1>
         <a class="navbar-brand" href="priseRDV.php">Prenez un RDV</a>
 
     </div>
 </header>
 <main>
+    <div class="container mt-2 text-center">
+        <p class="intro">Le blog, qui te fait manger et bouger sans culpabiliser. Ici, tu trouveras plein d’astuces pour une vie plus légère et sereine, des bonnes nouvelles, de la joie de vivre et des résultats.
+
+            Alors si comme les cornichons, tu tournes en rond, rejoins la communauté Mange et respire pour te dandiner avec ardeur (comme les chou-fleurs : t’as la réf ? )
+        </p>
+    </div>
     <h2>Mes prestations</h2>
 
     <!-- CARD_catalogue de service -->
@@ -19,55 +25,38 @@ include 'nav.php'; ?>
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
             <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
-                        <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
+                        <div class="d-flex justify-content-center align-items-center card-title mx-auto mb-5 price">65€</div>
+
+                        <div class="card-title text-center">Première consultation (1h)</div>
+                        <p>C’est le premier rdv : on se rencontre, on échange, on partage et surtout je vous écoute avec grande attention. On définit clairement vos objectifs et on met en place un plan de bataille rien que pour vous, 100% personnalisé, un guide qui vous permettra d’atteindre vos rêves :) <br>Je dis bien “on” car je suis là pour vous accompagner. C’est vous qui faites le job, qui vous prenez en main et qui avancez vers ce qui vous rendra fier.e.</p>
                     </div>
+
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <div class="card-title text-center">Pack conseils efficaces</div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Liste 1</li>
-                            <li class="list-group-item">Liste 2</li>
-                            <li class="list-group-item">Liste 3</li>
-                            <li class="list-group-item">Liste 4</li>
-                        </ul>
+                        <div class="d-flex justify-content-center align-items-center card-title mx-auto mb-5 price">45€</div>
+                        <div class="card-title text-center">RDV de suivi (45 min)</div>
+                        <p>C’est le deuxième rdv et les suivants (j’espère ! ). Ils permettent d’assurer un suivi, de garder la motivation, de vous féliciter pour les efforts accomplis, de se rebooster, de continuer. </p>
                     </div>
                 </div>
             </div>
 
             <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
-                        <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
+                        <div class="d-flex justify-content-center align-items-center card-title mx-auto mb-5 price">35€</div>
+                        <div class="card-title text-center">Conseils (30 min)</div>
+                        <p>C’est un rdv ponctuel qui fait suite à une question, demande particulière, ou un rdv qui rassure avant de se lancer dans un suivi à plus ou moins long terme. </p>
                     </div>
-                    <div class="card-body">
-                        <div class="card-title text-center">Pack conseils efficaces</div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Liste 1</li>
-                            <li class="list-group-item">Liste 2</li>
-                            <li class="list-group-item">Liste 3</li>
-                            <li class="list-group-item">Liste 4</li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
 
-            <div class="col mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-center align-items-center card-title mx-auto price">35€</div>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-title text-center">Pack conseils efficaces</div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Liste 1</li>
-                            <li class="list-group-item">Liste 2</li>
-                            <li class="list-group-item">Liste 3</li>
-                            <li class="list-group-item">Liste 4</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
 
     </div>

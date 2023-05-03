@@ -11,7 +11,8 @@ include 'nav.php'; ?>
 <main>
     <!-- Container pour le formulaire -->
     <div class="container">
-        <h2 class="form__title">Merci de remplir le formulaire suivant</h2>
+        <h2 class="form__title">Envie de vous lancer ?</h2>
+        <p class="rdv">Je vous invite à compléter ces quelques informations. Elles nous seront utiles pour un tout premier échange au sujet de votre alimentation, votre pratique sportive et de votre bien-être.</p>
         <form action="/agenda.php" method="post">
             <!-- Partie user-info sur 2 colonnes en desktop et 1 colonnes en mobile -->
             <div class="row row-cols-1 row-cols-md-2">

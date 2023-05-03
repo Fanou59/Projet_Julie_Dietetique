@@ -168,6 +168,7 @@ ul {
     list-style-type: none;
 }
 
+
 /************ ROOT ****************** */
 :root {
     --primary-color: #5B919F;
@@ -210,15 +211,12 @@ h4 {
 }
 
 h2 {
-    margin-top: 32px;
-    margin-bottom: 64px;
-
-
-}
-
-h2 {
+    margin-top: 48px;
+    margin-bottom: 32px;
     text-align: center;
     font-size: 2.5rem;
+
+
 }
 
 h3 {
@@ -272,37 +270,34 @@ a:hover {
 
 /************** HEADER__ACCUEIL *************************** */
 
-.header__accueil {
-    display: flex;
-    flex-direction: column;
-    /* background: linear-gradient(to left, transparent, white), url(/images/BG_header.jpeg); */
-    background-image: url(../images/BG_header.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 896px;
-    justify-content: center;
-}
 
 .header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/BG_header_V2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
     padding-left: 3rem;
-    color: var(--secondary-color);
-    text-transform: uppercase;
 
 }
 
 .header__title {
     margin-bottom: 1.5rem;
-    font-size: 5.5rem;
+    font-size: 6rem;
     line-height: 5.5rem;
     text-align: left;
-    /* color: var(--primary-color); */
+    color: white;
+    text-transform: uppercase;
 
 }
 
-.nav__button {
+.navbar-brand {
     width: 180px;
+    text-align: center;
 }
+
 
 .navbar-brand,
 .submit__btn input,
@@ -360,6 +355,11 @@ a:hover {
     text-align: center;
 }
 
+/* *********** INTRO ***************************** */
+.intro {
+    font-weight: bold;
+}
+
 /* ********** SECTION CATALOGUE ****************** */
 
 .card,
@@ -406,6 +406,7 @@ a:hover {
     font-size: 1.5rem;
     line-height: 32px;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 
@@ -461,6 +462,9 @@ h6 {
 }
 
 /************* FORMULAIRES ************************** */
+.rdv {
+    margin-bottom: 2rem;
+}
 
 .submit__acceptrgpd {
     margin-top: 1rem;
@@ -647,31 +651,28 @@ footer a {
         font-size: 1.13rem;
     }
 
-    .header__title {
-        font-size: 3.25rem;
-        line-height: 3.5rem;
-    }
+    .header__text {
 
-    .header__accueil {
-        background-image: url(../images/BG_header_mobile.jpg);
-        /* background: linear-gradient(to left, transparent, white), url(/images/BG_header_mobile.jpg); */
-
+        background-image: url(../images/BG_header_mobile_V2.jpeg);
         background-position: center;
         height: 300px;
+        padding: 0;
+
     }
 
-    .header__page h1 {
-        line-height: 300px;
+    .header__title {
+        text-align: center;
+        font-size: 3.25rem;
+        line-height: 3.5rem;
+        color: white;
+        margin: 0;
     }
+
 
     .header__text a {
         display: none;
     }
 
-    .header__text {
-        padding-left: 1rem;
-
-    }
 
     .testimonial {
         margin: 2rem 0;
@@ -679,6 +680,7 @@ footer a {
 
     .testimonial blockquote {
         font-size: 1rem;
+        line-height: 24px;
     }
 
     .connexion-container {

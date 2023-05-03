@@ -13,7 +13,8 @@ include 'nav.php';
 </header>
 <main> <!--Ici on mettra le formulaire de contact-->
     <div class="container">
-        <h2 class="form-title">Merci de remplir le formulaire suivant</h2>
+        <h2 class="form-title text-center">Merci de remplir ce formulaire.</h2>
+
         <form action="#" method="post">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-3">

@@ -24,8 +24,8 @@ include 'nav.php';
         <div class="col-12 col-lg-9 mb-4">
             <h3>Je suis Julie ☀️ </h3>
 
-            <p> Mariée à un sportif saxophoniste à tendance hyperactive. Il est passionné, doté de beaucoup d’humour et de force mentale incroyable ❤️</p>
-            <p> Maman de deux adorables garçons de 10 et 12 ans, l’un plutôt rêveur et artiste, l’autre plutôt fonceur et determiné 🥰</p>
+            <p>Je suis mariée à un sportif saxophoniste à tendance hyperactive. Il est passionné, doté de beaucoup d’humour et de force mentale incroyable ❤️</p>
+            <p>Je suis maman de deux adorables garçons de 10 et 12 ans, l’un plutôt rêveur et artiste, l’autre plutôt fonceur et determiné 🥰</p>
             <p>J’ai la chance d’habiter à la campagne 🍀</p>
             <p>J’ai d’ailleurs régulièrement la visite d’un rouge gorge près de ma baie vitrée et cela me remplit de joie à chaque fois.</p>
             <p>J’avoue, oui, j’ai un côté Alice aux pays des Merveilles assez prononcé 💫 </p>
