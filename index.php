@@ -31,6 +31,8 @@ include 'nav.php'; ?>
 
                         <div class="card-title text-center">Première consultation (1h)</div>
                         <p>C’est le premier rdv : on se rencontre, on échange, on partage et surtout je vous écoute avec grande attention. On définit clairement vos objectifs et on met en place un plan de bataille rien que pour vous, 100% personnalisé, un guide qui vous permettra d’atteindre vos rêves :) <br>Je dis bien “on” car je suis là pour vous accompagner. C’est vous qui faites le job, qui vous prenez en main et qui avancez vers ce qui vous rendra fier.e.</p>
+
+
                     </div>
 
                 </div>
@@ -42,6 +44,7 @@ include 'nav.php'; ?>
                         <div class="d-flex justify-content-center align-items-center card-title mx-auto mb-5 price">45€</div>
                         <div class="card-title text-center">RDV de suivi (45 min)</div>
                         <p>C’est le deuxième rdv et les suivants (j’espère ! ). Ils permettent d’assurer un suivi, de garder la motivation, de vous féliciter pour les efforts accomplis, de se rebooster, de continuer. </p>
+
                     </div>
                 </div>
             </div>
