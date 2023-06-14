@@ -510,10 +510,17 @@ footer i {
 
 
 /* ************* MODAL CNX ********************************* */
+
+/*
+* si login/pass = ok alors on la modal disparait
+*/
 .ok {
     display: none;
 }
 
+/* 
+* Place un flou d'arrière plan sur la page
+*/
 .connexion-back {
     position: fixed;
     top: 0;

@@ -11,10 +11,13 @@ let titreConsultation = $('personalise');
 //fonction pour tester et ajouter 
 function action(evt){
     evt.preventDefault();
+    //Ajoute OK à la class si login et pass ok 
     if(login.value !=='' && password.value !==''){
         modal.classList.add('ok');
-        let input = document.getElementById("login").value; // je récupère le champ INPUT
-        titreConsultation.innerHTML= `<h2>Bonjour ${input} ! <i class="fa-regular fa-face-smile"></i></h2>`; // J'ajoute l'identifiant saisie au message de bienvenue
+        // je récupère le champ INPUT avec l'ID = 'login'
+        let input = document.getElementById("login").value;
+        // J'ajoute l'identifiant saisie au message de bienvenue
+        titreConsultation.innerHTML= `<h2>Bonjour ${input} ! <i class="fa-regular fa-face-smile"></i></h2>`; 
         
     } else {
         miss.classList.add('warning');
@@ -22,10 +25,6 @@ function action(evt){
     }
 
 }
-
-
-
-
 
 
 //Ecoute à l'évenement click sur le bouton connexion et appelle de la fonction action

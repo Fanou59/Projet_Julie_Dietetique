@@ -30,7 +30,7 @@ include 'nav.php';
                     <label for="email">Email :</label>
                     <input class="form-control mt-3 mb-2" id="email" name="email" type="email" required>
                 </div>
-                <!-- on mettra un format automatique en JS ou PHP par la suite -->
+                <!-- le téléphone est automatiquement formaté par la bibliothèque CLEAVE.JS -->
                 <div class="col mb-3">
                     <label for="telephone">Téléphone :</label>
                     <input class="form-control mt-3 mb-2" id="telephone" name="telephone" type="tel" required>
